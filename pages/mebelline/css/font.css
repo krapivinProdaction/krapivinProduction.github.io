@@ -1,0 +1,29 @@
+@font-face {
+  font-family: 'Century Gothic';
+  src: url('../fonts/CenturyGothic.woff') format('woff'),
+  url('../fonts/CenturyGothic.woff2') format('woff2');
+  font-style: normal;
+  font-weight: 400;
+}
+@font-face {
+  font-family: 'Century Gothic';
+  src: url('../fonts/CenturyGothic-Bold.woff') format('woff'),
+  url('../fonts/CenturyGothic-Bold.woff2') format('woff2');
+  font-style: normal;
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: 'Cormorant';
+  src: url('../fonts/Cormorant-Regular.woff') format('woff'),
+  url('../fonts/Cormorant-Regular.woff2') format('woff2');
+  font-style: normal;
+  font-weight: 400;
+}
+@font-face {
+  font-family: 'Cormorant';
+  src: url('../fonts/Cormorant-Bold.woff') format('woff'),
+  url('../fonts/Cormorant-Bold.woff2') format('woff2');
+  font-style: normal;
+  font-weight: 700;
+}

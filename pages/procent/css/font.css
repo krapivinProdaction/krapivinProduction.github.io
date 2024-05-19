@@ -1,0 +1,72 @@
+@font-face {
+  font-family: 'Futura PT';
+  src: url('../fonts/FuturaPT-Demi.woff') format('woff'),
+  url('../fonts/FuturaPT-Demi.woff2') format('woff2');
+  font-style: normal;
+  font-weight: 600;
+}
+@font-face {
+  font-family: 'Futura PT';
+  src: url('../fonts/FuturaPT-Light.woff') format('woff'),
+  url('../fonts/FuturaPT-Light.woff2') format('woff2');
+  font-style: normal;
+  font-weight: 300;
+}
+@font-face {
+  font-family: 'Futura PT';
+  src: url('../fonts/FuturaPT-Medium.woff') format('woff'),
+  url('../fonts/FuturaPT-Medium.woff2') format('woff2');
+  font-style: normal;
+  font-weight: 500;
+}
+@font-face {
+  font-family: 'Futura PT';
+  src: url('../fonts/FuturaPT-Bold.woff') format('woff'),
+  url('../fonts/FuturaPT-Bold.woff2') format('woff2');
+  font-style: normal;
+  font-weight: 700;
+}
+@font-face {
+  font-family: 'Futura PT';
+  src: url('../fonts/FuturaPT-Book.woff') format('woff'),
+  url('../fonts/FuturaPT-Book.woff2') format('woff2');
+  font-style: normal;
+  font-weight: 450;
+}
+@font-face {
+  font-family: 'Futura PT';
+  src: url('../fonts/FuturaPT-ExtraBold.woff') format('woff'),
+  url('../fonts/FuturaPT-ExtraBold.woff2') format('woff2');
+  font-style: normal;
+  font-weight: 800;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('../fonts/Montserrat-SemiBold.woff') format('woff'),
+  url('../fonts/Montserrat-SemiBold.woff2') format('woff2');
+  font-style: normal;
+  font-weight: 600;
+}
+@font-face {
+  font-family: 'Montserrat';
+  src: url('../fonts/Montserrat-Regular.woff') format('woff'),
+  url('../fonts/Montserrat-Regular.woff2') format('woff2');
+  font-style: normal;
+  font-weight: 400;
+}
+@font-face {
+  font-family: 'Montserrat';
+  src: url('../fonts/Montserrat-ExtraLight.woff') format('woff'),
+  url('../fonts/Montserrat-ExtraLight.woff2') format('woff2');
+  font-style: normal;
+  font-weight: 200;
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url('../fonts/OpenSans-Regular.woff') format('woff'),
+  url('../fonts/OpenSans-Regular.woff2') format('woff2');
+  font-style: normal;
+  font-weight: 400;
+}

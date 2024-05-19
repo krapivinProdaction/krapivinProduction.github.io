@@ -1,0 +1,14 @@
+{
+    "name": "\u0424\u0435\u0441\u0442\u0438\u0432\u0430\u043b\u044c \u0421\u0443\u0448\u0438",
+    "short_name": "\u0424\u0435\u0441\u0442\u0438\u0432\u0430\u043b\u044c \u0421\u0443\u0448\u0438",
+    "icons": [
+        {
+            "src": "/android-chrome-96x96.png",
+            "sizes": "96x96",
+            "type": "image/png"
+        }
+    ],
+    "theme_color": "#ffffff",
+    "background_color": "#ffffff",
+    "display": "standalone"
+}

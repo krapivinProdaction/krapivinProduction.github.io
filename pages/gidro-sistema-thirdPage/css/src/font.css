@@ -1,0 +1,74 @@
+@font-face {
+  font-family: 'Lato';
+  src: url('../../fonts/latoregular.woff') format('woff'),
+        url('../../fonts/latoregular.woff2') format('woff2');
+  font-weight: 400;
+}
+@font-face {
+  font-family: 'Lato';
+  src: url('../../fonts/latobold.woff') format('woff'),
+        url('../../fonts/latobold.woff2') format('woff2');
+  font-weight: 700;
+}
+@font-face {
+  font-family: 'Lato';
+  src: url('../../fonts/latomedium.woff') format('woff'),
+        url('../../fonts/latomedium.woff2') format('woff2');
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url('../../fonts/OpenSans-Light.woff') format('woff'),
+        url('../../fonts/OpenSans-Light.woff2') format('woff2');
+  font-weight: 300;
+}
+@font-face {
+  font-family: 'Open Sans';
+  src: url('../../fonts/OpenSans-SemiBold.woff') format('woff'),
+        url('../../fonts/OpenSans-SemiBold.woff2') format('woff2');
+  font-weight: 600;
+}
+@font-face {
+  font-family: 'Open Sans';
+  src: url('../../fonts/OpenSans-Regular.woff') format('woff'),
+        url('../../fonts/OpenSans-Regular.woff2') format('woff2');
+  font-weight: 400;
+}
+@font-face {
+  font-family: 'Open Sans';
+  src: url('../../fonts/OpenSans-ExtraBold.woff') format('woff'),
+        url('../../fonts/OpenSans-ExtraBold.woff2') format('woff2');
+  font-weight: 800;
+}
+
+@font-face {
+  font-family: 'Fira Sans';
+  src: url('../../fonts/Firasansbold.woff') format('woff'),
+        url('../../fonts/Firasansbold.woff2') format('woff2');
+  font-weight: 700;
+}
+@font-face {
+  font-family: 'Fira Sans';
+  src: url('../../fonts/Firasansextrabold.woff') format('woff'),
+        url('../../fonts/Firasansextrabold.woff2') format('woff2');
+  font-weight: 800;
+}
+@font-face {
+  font-family: 'Fira Sans';
+  src: url('../../fonts/Firasansregular.woff') format('woff'),
+        url('../../fonts/Firasansregular.woff2') format('woff2');
+  font-weight: 400;
+}
+@font-face {
+  font-family: 'Fira Sans';
+  src: url('../../fonts/Firasanslight.woff') format('woff'),
+        url('../../fonts/Firasanslight.woff2') format('woff2');
+  font-weight: 300;
+}
+@font-face {
+  font-family: 'Fira Sans';
+  src: url('../../fonts/Firasanssemibold.woff') format('woff'),
+        url('../../fonts/Firasanssemibold.woff2') format('woff2');
+  font-weight: 600;
+}

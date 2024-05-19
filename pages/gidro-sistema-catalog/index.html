@@ -1,0 +1,883 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Гидро-Система</title>
+  <!--fonts-->
+  <!--<link rel="stylesheet" href="css/src/font.css" type="text/css">-->
+  <!--styles-->
+  <!--<link rel="stylesheet" href="css/src/reset.css" type="text/css">
+  <link rel="stylesheet" href="css/src/style.css" type="text/css">
+  <link rel="stylesheet" href="css/src/adaption.css" type="text/css">-->
+  <link rel="stylesheet" href="css/glogal/global_min.css" type="text/css">
+</head>
+<body>
+  <div class="_wrapper">
+    <header class="header">
+      <div class="header__header-top header-top">
+        <div class="header-top__container _container">
+          <div class="header-top__locate-and-schedule">
+            <div class="header-top__locate">
+              <img src="img/header/locate.svg" alt="локация" class="header-top__locate-icon">
+              <p class="header-top__city">Ваш город: <span class="header-top__hight-light-text">Владимир</span> <span class="header-top__trinagle"></span></p>
+            </div>
+
+            <div class="header-top__schedule header-schedule">
+              <img src="img/header/watch.svg" alt="часы" class="header-schedule__watch">
+              <p class="header-schedule__text">Режим работы:<span> пн-пт 9:00 — 19:00, сб-вс 9:00 — 17:00</span></p>
+            </div>
+          </div>
+          <div class="header-top__currency currency">
+            <p class="currency__text">Валюта: <span class="currency__rub"><span>RUB &#8381;</span></span> <span class="currency__usd"> <span>USD &#36;</span></span></p>
+          </div>
+        </div>
+      </div>
+
+      <div class="header__header-middle header-middle">
+        <div class="header-middle__container _container">
+          <div class="header-middle__contact-and-logo-wrapper">
+            <div class="header-middle__logo">
+              <a href="" class="header-middle__logo-link"><img src="img/header/logo.svg" alt="логотип" class="header-middle__logo-image"></a>
+            </div>
+            <div class="header-middle__contact-wrapper header-contact">
+              <div class="header-contact__block header-contact__desctop">
+                <div class="header-contact__image-wrapper">
+                  <img src="img/header/mail.svg" alt="конверт" class="header-contact__icon-mail">
+                </div>
+                <a href="mailto:office@gidro-sistema.ru" class="header-contact__mail-text">office@gidro-sistema.ru</a>
+              </div>
+              
+              <div class="header-contact__block">
+                <div class="header-contact__image-wrapper">
+                  <img src="img/header/phone.svg" alt="телефон" class="header-contact__icon-phone">
+                </div>
+                <div class="header-contact__text-wrapper">
+                  <p class="header-contact__phone-text">8 (800) 500-15-40</p>
+                  <p class="header-contact__call-order">Заказать звонок</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <form action="/" class="header-middle__forms header-middle__forms-desktop">
+            <input type="text" class="header-middle__search-form" placeholder="Поиск">
+            <div class="header-middle__search-icon-wrapper"><img src="img/header/search-icon.svg" alt="лупа" class="header-middle__search-icon"></div>
+          </form>
+          <div class="header-middle__cart-and-burder-wrapper">
+            <a href="/" class="header-middle__cart-link">
+              <div class="header-middle__cart">
+                <img src="img/header/cart-icon.svg" alt="корзина" class="header-middle__cart-icon">
+                <p class="header-middle__cart-text">Корзина</p>
+              </div>
+              <p class="header-middle__balance">2360 <span>р.</span></p>
+            </a>
+            <div class="header__menu-icon">
+              <span></span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <nav class="header__header-bottom menu">
+        <div class="menu__container _container">
+          <div class="menu__locate-and-schedule-wrapper">
+            <div class="header-top__locate-and-schedule menu__locate-and-schedule">
+              <div class="header-top__locate">
+                <img src="img/header/locate.svg" alt="локация" class="header-top__locate-icon">
+                <p class="header-top__city">Ваш город: <span class="header-top__hight-light-text">Владимир</span> <span class="header-top__trinagle"></span></p>
+              </div>
+  
+              <div class="header-top__schedule header-schedule">
+                <img src="img/header/watch.svg" alt="часы" class="header-schedule__watch">
+                <p class="header-schedule__text">Режим работы:<span> пн-пт 9:00 — 19:00, сб-вс 9:00 — 17:00</span></p>
+              </div>
+            </div>
+            <div class="header-top__currency currency">
+              <p class="currency__text">Валюта: <span class="currency__rub"><span>RUB &#8381;</span></span> <span class="currency__usd"> <span>USD &#36;</span></span></p>
+            </div>
+          </div>
+          
+          <form action="/" class="header-middle__forms header-middle__forms-mobile">
+            <input type="text" class="header-middle__search-form" placeholder="Поиск">
+            <div class="header-middle__search-icon-wrapper"><img src="img/header/search-icon.svg" alt="лупа" class="header-middle__search-icon"></div>
+          </form>
+          <div class="menu__list">
+            <a href="" class="menu__link">О нас </a>
+            <a href="" class="menu__link">Доставка и оплата</a>
+            <a href="" class="menu__link">Гарантия</a>
+            <a href="" class="menu__link">Сертификаты</a>
+            <a href="" class="menu__link">Контакты</a>
+          </div>
+          <div class="header-contact__block header-contact__mobile">
+            <div class="header-contact__image-wrapper header-contact__image-wrapper-mobile">
+              <img src="img/header/mail.svg" alt="конверт" class="header-contact__icon-mail">
+            </div>
+            <a href="mailto:office@gidro-sistema.ru" class="header-contact__mail-text">office@gidro-sistema.ru</a>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="main-section">
+        <div class="main-section__container _container">
+          <div class="main-section__bread-crumbs bread-crumbs">
+            <a href="#" class="bread-crumbs__prev-page">Главная</a> > <a href="#" class="bread-crumbs__this-page">Рулевые рейки</a>
+          </div>
+          <div class="main-section__content">
+            <h1 class="main-section__title">РУЛЕВЫЕ РЕЙКИ</h1>
+            <p class="main-section__text main-section__first-text">Рулевая рейка (или редуктор гидроусилителя руля) – это важнейшая часть системы ГУР, исправное функционирование которой влияет на легкость поворота рулевого колеса.</p>
+            <p class="main-section__text main-section__second-text">Фактически, рейка и есть гидроусилитель. Выход из строя этого элемента системы может повлечь за собой печальные последствия, если вовремя его не заменить или не отремонтировать. В нашем каталоге вы можете найти в наличии и купить рулевые рейки для всех моделей авто любого производителя. Оригинальные запчасти поставляются нам прямо с заводов-изготовителей, поэтому не может быть сомнений в качестве реализуемой продукции. Все цены, указанные в каталоге, актуальны, и содержат дополнительную информацию о стоимости покупки новой запчасти с обменом старой.</p>
+          </div>
+        </div>
+      </section>
+      <div class="brands">
+        <div class="brands__container _container">
+          <nav class="brands__tabs tabs">
+            <div class="tabs__tab tabs__parametrs _active">
+              <img src="img/brands/parametrs-blue.svg" alt="параметры" class="tabs__icon tabs__icon-parametrs">
+              <p class="tabs__text">Подбор по параметрам</p>
+            </div>
+            <div class="tabs__tab tabs__code">
+              <img src="img/brands/code-white.svg" alt="код" class="tabs__icon tabs__icon-code">
+              <p class="tabs__text">Поиск по коду или названию</p>
+            </div>
+          </nav>
+          <div class="brands__content-wrapper brands__first-window _active">
+            <div class="brands__text-content">
+              <p class="brands__select-mark">Выберите марку авто:</p>
+              <form action="/" class="brands__forms-wrapper">
+                <input type="text" placeholder="Поиск по коду или названию" class="brands__form">
+                <img src="img/header/search-icon.svg" alt="поиск" class="brands__search-icon">
+              </form>
+            </div>
+            <div class="brands__list">
+              <div class="brands__item">
+                <div class="brands__img-wrapper">
+                  <img src="img/brands/brands-logo/acura.png" alt="acura логотип" class="brands__image">
+                </div>
+                <p class="brands__name">Acura</p>
+              </div>
+              <div class="brands__item">
+                <div class="brands__img-wrapper">
+                  <img src="img/brands/brands-logo/audi.png" alt="audi логотип" class="brands__image">
+                </div>
+                <p class="brands__name">Audi</p>
+              </div>
+              <div class="brands__item">
+                <div class="brands__img-wrapper">
+                  <img src="img/brands/brands-logo/alpha.png" alt="alpha romeo логотип" class="brands__image">
+                </div>
+                <p class="brands__name">Alfa Romeo</p>
+              </div>
+              <div class="brands__item">
+                <div class="brands__img-wrapper">
+                  <img src="img/brands/brands-logo/aston.png" alt="Aston Martin логотип" class="brands__image">
+                </div>
+                <p class="brands__name">Aston Martin</p>
+              </div>
+              <div class="brands__item">
+                <div class="brands__img-wrapper">
+                  <img src="img/brands/brands-logo/aurus.png" alt="Aurus логотип" class="brands__image">
+                </div>
+                <p class="brands__name">Aurus</p>
+              </div>
+              <div class="brands__item">
+                <div class="brands__img-wrapper">
+                  <img src="img/brands/brands-logo/bmw.png" alt="BMW логотип" class="brands__image">
+                </div>
+                <p class="brands__name">BMW</p>
+              </div>
+              <div class="brands__item">
+                <div class="brands__img-wrapper">
+                  <img src="img/brands/brands-logo/byd.png" alt="BYD логотип" class="brands__image">
+                </div>
+                <p class="brands__name">BYD</p>
+              </div>
+              <div class="brands__item">
+                <div class="brands__img-wrapper">
+                  <img src="img/brands/brands-logo/Bentley.png" alt="Bentley логотип" class="brands__image">
+                </div>
+                <p class="brands__name">Bentley</p>
+              </div>
+              <div class="brands__item">
+                <div class="brands__img-wrapper">
+                  <img src="img/brands/brands-logo/brilliance.png" alt="Brilliance логотип" class="brands__image">
+                </div>
+                <p class="brands__name">Brilliance</p>
+              </div>
+              <div class="brands__item">
+                <div class="brands__img-wrapper">
+                  <img src="img/brands/brands-logo/buick.png" alt="Buick логотип" class="brands__image">
+                </div>
+                <p class="brands__name">Buick</p>
+              </div>
+              <div class="brands__item">
+                <div class="brands__img-wrapper">
+                  <img src="img/brands/brands-logo/cadillac.png" alt="Cadillac логотип" class="brands__image">
+                </div>
+                <p class="brands__name">Cadillac</p>
+              </div>
+              <div class="brands__item">
+                <div class="brands__img-wrapper">
+                  <img src="img/brands/brands-logo/ChangFeng.png" alt="ChangFeng логотип" class="brands__image">
+                </div>
+                <p class="brands__name">ChangFeng</p>
+              </div>
+              <div class="brands__item">
+                <div class="brands__img-wrapper">
+                  <img src="img/brands/brands-logo/changan.png" alt="Changan логотип" class="brands__image">
+                </div>
+                <p class="brands__name">Changan</p>
+              </div>
+              <div class="brands__item">
+                <div class="brands__img-wrapper">
+                  <img src="img/brands/brands-logo/chery.png" alt="Chery логотип" class="brands__image">
+                </div>
+                <p class="brands__name">Chery</p>
+              </div>
+              <div class="brands__item">
+                <div class="brands__img-wrapper">
+                  <img src="img/brands/brands-logo/chevrolet.png" alt="Chevrolet логотип" class="brands__image">
+                </div>
+                <p class="brands__name">Chevrolet</p>
+              </div>
+              <div class="brands__item">
+                <div class="brands__img-wrapper">
+                  <img src="img/brands/brands-logo/Chrysler.png" alt="Chrysler логотип" class="brands__image">
+                </div>
+                <p class="brands__name">Chrysler</p>
+              </div>
+              <div class="brands__item">
+                <div class="brands__img-wrapper">
+                  <img src="img/brands/brands-logo/Citroen.png" alt="Citroen логотип" class="brands__image">
+                </div>
+                <p class="brands__name">Citroen</p>
+              </div>
+              <div class="brands__item">
+                <div class="brands__img-wrapper">
+                  <img src="img/brands/brands-logo/Dacia.png" alt="Dacia логотип" class="brands__image">
+                </div>
+                <p class="brands__name">Dacia</p>
+              </div>
+              <div class="brands__item">
+                <div class="brands__img-wrapper">
+                  <img src="img/brands/brands-logo/Daewoo.png" alt="Daewoo логотип" class="brands__image">
+                </div>
+                <p class="brands__name">Daewoo</p>
+              </div>
+              <div class="brands__item">
+                <div class="brands__img-wrapper">
+                  <img src="img/brands/brands-logo/Daihatsu.png" alt="Daihatsu логотип" class="brands__image">
+                </div>
+                <p class="brands__name">Daihatsu</p>
+              </div>
+              <div class="brands__item">
+                <div class="brands__img-wrapper">
+                  <img src="img/brands/brands-logo/Datsun.png" alt="Datsun логотип" class="brands__image">
+                </div>
+                <p class="brands__name">Datsun</p>
+              </div>
+              <div class="brands__item">
+                <div class="brands__img-wrapper">
+                  <img src="img/brands/brands-logo/Dodge.png" alt="Dodge логотип" class="brands__image">
+                </div>
+                <p class="brands__name">Dodge</p>
+              </div>
+              <div class="brands__item">
+                <div class="brands__img-wrapper">
+                  <img src="img/brands/brands-logo/DongFeng.png" alt="DongFeng логотип" class="brands__image">
+                </div>
+                <p class="brands__name">DongFeng</p>
+              </div>
+              <div class="brands__item">
+                <div class="brands__img-wrapper">
+                  <img src="img/brands/brands-logo/FAW.png" alt="FAW логотип" class="brands__image">
+                </div>
+                <p class="brands__name">FAW</p>
+              </div>
+              <div class="brands__item">
+                <div class="brands__img-wrapper">
+                  <img src="img/brands/brands-logo/Fiat.png" alt="Fiat логотип" class="brands__image">
+                </div>
+                <p class="brands__name">Fiat</p>
+              </div>
+              <div class="brands__item">
+                <div class="brands__img-wrapper">
+                  <img src="img/brands/brands-logo/Ford.png" alt="Ford логотип" class="brands__image">
+                </div>
+                <p class="brands__name">Ford</p>
+              </div>
+              <div class="brands__item">
+                <div class="brands__img-wrapper">
+                  <img src="img/brands/brands-logo/Ford USA.png" alt="Ford USA логотип" class="brands__image">
+                </div>
+                <p class="brands__name">Ford USA</p>
+              </div>
+              <div class="brands__item">
+                <div class="brands__img-wrapper">
+                  <img src="img/brands/brands-logo/GAZ.png" alt="GAZ логотип" class="brands__image">
+                </div>
+                <p class="brands__name">GAZ</p>
+              </div>
+              <div class="brands__item">
+                <div class="brands__img-wrapper">
+                  <img src="img/brands/brands-logo/GMC.png" alt="Chery логотип" class="brands__image">
+                </div>
+                <p class="brands__name">GMC</p>
+              </div>
+              <div class="brands__item">
+                <div class="brands__img-wrapper">
+                  <img src="img/brands/brands-logo/Geely.png" alt="Geely логотип" class="brands__image">
+                </div>
+                <p class="brands__name">Geely</p>
+              </div>
+              <div class="brands__item">
+                <div class="brands__img-wrapper">
+                  <img src="img/brands/brands-logo/Great Wall.png" alt="Great Wall логотип" class="brands__image">
+                </div>
+                <p class="brands__name">Great Wall</p>
+              </div>
+              <div class="brands__item">
+                <div class="brands__img-wrapper">
+                  <img src="img/brands/brands-logo/HaiMa.png" alt="HaiMa логотип" class="brands__image">
+                </div>
+                <p class="brands__name">HaiMa</p>
+              </div>
+              <div class="brands__item">
+                <div class="brands__img-wrapper">
+                  <img src="img/brands/brands-logo/Honda.png" alt="Honda логотип" class="brands__image">
+                </div>
+                <p class="brands__name">Honda</p>
+              </div>
+              <div class="brands__item">
+                <div class="brands__img-wrapper">
+                  <img src="img/brands/brands-logo/Hummer.png" alt="Hummer логотип" class="brands__image">
+                </div>
+                <p class="brands__name">Hummer</p>
+              </div>
+              <div class="brands__item">
+                <div class="brands__img-wrapper">
+                  <img src="img/brands/brands-logo/Hyundai.png" alt="Hyundai логотип" class="brands__image">
+                </div>
+                <p class="brands__name">Hyundai</p>
+              </div>
+              <div class="brands__item">
+                <div class="brands__img-wrapper">
+                  <img src="img/brands/brands-logo/ISUZU.png" alt="ISUZU логотип" class="brands__image">
+                </div>
+                <p class="brands__name">ISUZU</p>
+              </div>
+              <div class="brands__item">
+                <div class="brands__img-wrapper">
+                  <img src="img/brands/brands-logo/Infiniti.png" alt="Infiniti логотип" class="brands__image">
+                </div>
+                <p class="brands__name">Infiniti</p>
+              </div>
+              <div class="brands__item">
+                <div class="brands__img-wrapper">
+                  <img src="img/brands/brands-logo/Iran Khodro.png" alt="Iran Khodro логотип" class="brands__image">
+                </div>
+                <p class="brands__name">Iran Khodro</p>
+              </div>
+              <div class="brands__item">
+                <div class="brands__img-wrapper">
+                  <img src="img/brands/brands-logo/Iveco.png" alt="Iveco логотип" class="brands__image">
+                </div>
+                <p class="brands__name">Iveco</p>
+              </div>
+              <div class="brands__item">
+                <div class="brands__img-wrapper">
+                  <img src="img/brands/brands-logo/JAC.png" alt="JAC логотип" class="brands__image">
+                </div>
+                <p class="brands__name">JAC</p>
+              </div>
+              <div class="brands__item">
+                <div class="brands__img-wrapper">
+                  <img src="img/brands/brands-logo/JEEP.png" alt="JEEP логотип" class="brands__image">
+                </div>
+                <p class="brands__name">JEEP</p>
+              </div>
+              <div class="brands__item">
+                <div class="brands__img-wrapper">
+                  <img src="img/brands/brands-logo/Jaguar.png" alt="Jaguar логотип" class="brands__image">
+                </div>
+                <p class="brands__name">Jaguar</p>
+              </div>
+              <div class="brands__item">
+                <div class="brands__img-wrapper">
+                  <img src="img/brands/brands-logo/KIA.png" alt="KIA логотип" class="brands__image">
+                </div>
+                <p class="brands__name">KIA</p>
+              </div>
+              <div class="brands__item">
+                <div class="brands__img-wrapper">
+                  <img src="img/brands/brands-logo/LDV.png" alt="LDV логотип" class="brands__image">
+                </div>
+                <p class="brands__name">LDV</p>
+              </div>
+              <div class="brands__item">
+                <div class="brands__img-wrapper">
+                  <img src="img/brands/brands-logo/Lada.png" alt="Lada логотип" class="brands__image">
+                </div>
+                <p class="brands__name">Lada</p>
+              </div>
+              <div class="brands__item">
+                <div class="brands__img-wrapper">
+                  <img src="img/brands/brands-logo/Lamborghini.png" alt="Lamborghini логотип" class="brands__image">
+                </div>
+                <p class="brands__name">Lamborghini</p>
+              </div>
+              <div class="brands__item">
+                <div class="brands__img-wrapper">
+                  <img src="img/brands/brands-logo/Lancia.png" alt="Lancia логотип" class="brands__image">
+                </div>
+                <p class="brands__name">Lancia</p>
+              </div>
+              <div class="brands__item">
+                <div class="brands__img-wrapper">
+                  <img src="img/brands/brands-logo/Land Rover.png" alt="Land Rover логотип" class="brands__image">
+                </div>
+                <p class="brands__name">Land Rover</p>
+              </div>
+              <div class="brands__item">
+                <div class="brands__img-wrapper">
+                  <img src="img/brands/brands-logo/Lexus.png" alt="Lexus логотип" class="brands__image">
+                </div>
+                <p class="brands__name">Lexus</p>
+              </div>
+              <div class="brands__item">
+                <div class="brands__img-wrapper">
+                  <img src="img/brands/brands-logo/Lifan.png" alt="Lifan логотип" class="brands__image">
+                </div>
+                <p class="brands__name">Lifan</p>
+              </div>
+              <div class="brands__item">
+                <div class="brands__img-wrapper">
+                  <img src="img/brands/brands-logo/lincoln.png" alt="Lincoln логотип" class="brands__image">
+                </div>
+                <p class="brands__name">Lincoln</p>
+              </div>
+              <div class="brands__item">
+                <div class="brands__img-wrapper">
+                  <img src="img/brands/brands-logo/Maserati.png" alt="Maserati логотип" class="brands__image">
+                </div>
+                <p class="brands__name">Maserati</p>
+              </div>
+              <div class="brands__item">
+                <div class="brands__img-wrapper">
+                  <img src="img/brands/brands-logo/Mazda.png" alt="Mazda логотип" class="brands__image">
+                </div>
+                <p class="brands__name">Mazda</p>
+              </div>
+              <div class="brands__item">
+                <div class="brands__img-wrapper">
+                  <img src="img/brands/brands-logo/Mercedes.png" alt="Mercedes логотип" class="brands__image">
+                </div>
+                <p class="brands__name">Mercedes</p>
+              </div>
+              <div class="brands__item">
+                <div class="brands__img-wrapper">
+                  <img src="img/brands/brands-logo/Mini.png" alt="Mini логотип" class="brands__image">
+                </div>
+                <p class="brands__name">Mini</p>
+              </div>
+              <div class="brands__item">
+                <div class="brands__img-wrapper">
+                  <img src="img/brands/brands-logo/Mitsubishi.png" alt="Mitsubishi логотип" class="brands__image">
+                </div>
+                <p class="brands__name">Mitsubishi</p>
+              </div>
+              <div class="brands__item">
+                <div class="brands__img-wrapper">
+                  <img src="img/brands/brands-logo/Nissan.png" alt="Nissan логотип" class="brands__image">
+                </div>
+                <p class="brands__name">Nissan</p>
+              </div>
+              <div class="brands__item">
+                <div class="brands__img-wrapper">
+                  <img src="img/brands/brands-logo/OPEL.png" alt="OPEL логотип" class="brands__image">
+                </div>
+                <p class="brands__name">OPEL</p>
+              </div>
+              <div class="brands__item">
+                <div class="brands__img-wrapper">
+                  <img src="img/brands/brands-logo/Peugeot.png" alt="Peugeot логотип" class="brands__image">
+                </div>
+                <p class="brands__name">Peugeot</p>
+              </div>
+              <div class="brands__item">
+                <div class="brands__img-wrapper">
+                  <img src="img/brands/brands-logo/Plymouth.png" alt="Plymouth логотип" class="brands__image">
+                </div>
+                <p class="brands__name">Plymouth</p>
+              </div>
+              <div class="brands__item">
+                <div class="brands__img-wrapper">
+                  <img src="img/brands/brands-logo/Pontiac.png" alt="Pontiac логотип" class="brands__image">
+                </div>
+                <p class="brands__name">Pontiac</p>
+              </div>
+              <div class="brands__item">
+                <div class="brands__img-wrapper">
+                  <img src="img/brands/brands-logo/Porsche.png" alt="Porsche логотип" class="brands__image">
+                </div>
+                <p class="brands__name">Porsche</p>
+              </div>
+              <div class="brands__item">
+                <div class="brands__img-wrapper">
+                  <img src="img/brands/brands-logo/Proton.png" alt="Proton логотип" class="brands__image">
+                </div>
+                <p class="brands__name">Proton</p>
+              </div>
+              <div class="brands__item">
+                <div class="brands__img-wrapper">
+                  <img src="img/brands/brands-logo/Ravon.png" alt="Ravon логотип" class="brands__image">
+                </div>
+                <p class="brands__name">Ravon</p>
+              </div>
+              <div class="brands__item">
+                <div class="brands__img-wrapper">
+                  <img src="img/brands/brands-logo/Renault.png" alt="Renault логотип" class="brands__image">
+                </div>
+                <p class="brands__name">Renault</p>
+              </div>
+              <div class="brands__item">
+                <div class="brands__img-wrapper">
+                  <img src="img/brands/brands-logo/Rolls-Royce.png" alt="Rolls-Royce логотип" class="brands__image">
+                </div>
+                <p class="brands__name">Rolls-Royce</p>
+              </div>
+              <div class="brands__item">
+                <div class="brands__img-wrapper">
+                  <img src="img/brands/brands-logo/Rover.png" alt="Rover логотип" class="brands__image">
+                </div>
+                <p class="brands__name">Rover</p>
+              </div>
+              <div class="brands__item">
+                <div class="brands__img-wrapper">
+                  <img src="img/brands/brands-logo/SAAB.png" alt="SAAB логотип" class="brands__image">
+                </div>
+                <p class="brands__name">SAAB</p>
+              </div>
+              <div class="brands__item">
+                <div class="brands__img-wrapper">
+                  <img src="img/brands/brands-logo/SMART.png" alt="SMART логотип" class="brands__image">
+                </div>
+                <p class="brands__name">SMART</p>
+              </div>
+              <div class="brands__item">
+                <div class="brands__img-wrapper">
+                  <img src="img/brands/brands-logo/Saturn.png" alt="Saturn логотип" class="brands__image">
+                </div>
+                <p class="brands__name">Saturn</p>
+              </div>
+              <div class="brands__item">
+                <div class="brands__img-wrapper">
+                  <img src="img/brands/brands-logo/Scion.png" alt="Scion логотип" class="brands__image">
+                </div>
+                <p class="brands__name">Scion</p>
+              </div>
+              <div class="brands__item">
+                <div class="brands__img-wrapper">
+                  <img src="img/brands/brands-logo/Seat.png" alt="Seat логотип" class="brands__image">
+                </div>
+                <p class="brands__name">Seat</p>
+              </div>
+              <div class="brands__item">
+                <div class="brands__img-wrapper">
+                  <img src="img/brands/brands-logo/Skoda.png" alt="Skoda логотип" class="brands__image">
+                </div>
+                <p class="brands__name">Skoda</p>
+              </div>
+              <div class="brands__item">
+                <div class="brands__img-wrapper">
+                  <img src="img/brands/brands-logo/Ssang Yong.png" alt="Ssang Yong логотип" class="brands__image">
+                </div>
+                <p class="brands__name">Ssang Yong</p>
+              </div>
+              <div class="brands__item">
+                <div class="brands__img-wrapper">
+                  <img src="img/brands/brands-logo/Subaru.png" alt="Subaru логотип" class="brands__image">
+                </div>
+                <p class="brands__name">Subaru</p>
+              </div>
+              <div class="brands__item">
+                <div class="brands__img-wrapper">
+                  <img src="img/brands/brands-logo/suzuki.png" alt="Suzuki логотип" class="brands__image">
+                </div>
+                <p class="brands__name">Suzuki</p>
+              </div>
+              <div class="brands__item">
+                <div class="brands__img-wrapper">
+                  <img src="img/brands/brands-logo/Tagaz.png" alt="Tagaz логотип" class="brands__image">
+                </div>
+                <p class="brands__name">Tagaz</p>
+              </div>
+              <div class="brands__item">
+                <div class="brands__img-wrapper">
+                  <img src="img/brands/brands-logo/Tata.png" alt="Tata логотип" class="brands__image">
+                </div>
+                <p class="brands__name">Tata</p>
+              </div>
+              <div class="brands__item">
+                <div class="brands__img-wrapper">
+                  <img src="img/brands/brands-logo/Tesla.png" alt="Tesla логотип" class="brands__image">
+                </div>
+                <p class="brands__name">Tesla</p>
+              </div>
+              <div class="brands__item">
+                <div class="brands__img-wrapper">
+                  <img src="img/brands/brands-logo/Toyota.png" alt="Toyota логотип" class="brands__image">
+                </div>
+                <p class="brands__name">Toyota</p>
+              </div>
+              <div class="brands__item">
+                <div class="brands__img-wrapper">
+                  <img src="img/brands/brands-logo/fw.png" alt="VW логотип" class="brands__image">
+                </div>
+                <p class="brands__name">VW</p>
+              </div>
+              <div class="brands__item">
+                <div class="brands__img-wrapper">
+                  <img src="img/brands/brands-logo/Volvo.png" alt="Volvo логотип" class="brands__image">
+                </div>
+                <p class="brands__name">Volvo</p>
+              </div>
+              <div class="brands__item">
+                <div class="brands__img-wrapper">
+                  <img src="img/brands/brands-logo/Vortex.png" alt="Vortex логотип" class="brands__image">
+                </div>
+                <p class="brands__name">Vortex</p>
+              </div>
+              <div class="brands__item">
+                <div class="brands__img-wrapper">
+                  <img src="img/brands/brands-logo/ZAZ.png" alt="ZAZ логотип" class="brands__image">
+                </div>
+                <p class="brands__name">ZAZ</p>
+              </div>
+            </div>
+          </div>
+          <div class="brands__second-window second-window">
+              <p class="second-window__text">Попросили оставить без контента</p>
+          </div>
+          <div class="brands__models models">
+            <div class="models__text-content">
+              <p class="models__text">Модель автомобиля: </p>
+              <form action="#" class="models__form-wrapper">
+                <input type="text" class="models__text-form" placeholder="Поиск по названию">
+                <img src="img/header/search-icon.svg" alt="лупа" class="models__search-icon"> 
+              </form>
+            </div>
+            <div class="models__list">
+              <label class="models__label">
+                <input type="checkbox" class="models__checkbox">
+                <span class="models__checkbox-text"><span></span> Chevrolet Corvette C5 1997-2004</span>
+              </label>
+              <label class="models__label">
+                <input type="checkbox" class="models__checkbox">
+                <span class="models__checkbox-text"><span></span> Chevrolet Corvette C5 1997-2004</span>
+              </label>
+              <label class="models__label">
+                <input type="checkbox" class="models__checkbox">
+                <span class="models__checkbox-text"><span></span> Chevrolet Corvette C5 1997-2004</span>
+              </label>
+              <label class="models__label">
+                <input type="checkbox" class="models__checkbox">
+                <span class="models__checkbox-text"><span></span> Chevrolet Corvette C5 1997-2004</span>
+              </label>
+              <label class="models__label">
+                <input type="checkbox" class="models__checkbox">
+                <span class="models__checkbox-text"><span></span> Chevrolet Corvette C5 1997-2004</span>
+              </label>
+              <label class="models__label">
+                <input type="checkbox" class="models__checkbox">
+                <span class="models__checkbox-text"><span></span> Chevrolet Corvette C5 1997-2004</span>
+              </label>
+              <label class="models__label">
+                <input type="checkbox" class="models__checkbox">
+                <span class="models__checkbox-text"><span></span> Chevrolet Corvette C5 1997-2004</span>
+              </label>
+              </div>
+            </div>
+          </div>
+        </div>
+      
+      <section class="result">
+        <div class="result__container _container">
+          <h4 class="result__title">РЕЗУЛЬТАТЫ ПОДБОРА</h4>
+          <div class="result__list">
+            <div class="result__item product">
+              <div class="product__photo-wrapper">
+                <img src="img/result/second-product.webp" alt="фото товара" class="product__photo">
+              </div>
+              <div class="product__text-content">
+                <div class="product__characteristics">
+                  <h5 class="product__name">Рулевая рейка 2GS1410</h5>
+                  <p class="product__description">Гидравлическая рулевая рейка</p>
+                  <p class="product__auto-model">Модель авто: <span>Chevrolet Cruze 2009</span></p>
+                  <div class="product__price-and-availability-wrapper">
+                    <div class="product__availability">
+                      <img src="img/result/mark.svg" alt="галочка" class="product__availability-mark">
+                      <p class="product__availability-text">Есть в наличии</p>
+                    </div>
+                    <p class="product__price">24 459 руб.</p>
+                  </div>
+                </div>             
+                <button class="product__cart-btn"><img src="img/header/cart-icon.svg" alt="корзина" class="product__cart-img"><span class="product__cart-text">Добавить в корзину</span></button>
+              </div>
+            </div> 
+
+            <div class="result__item product">
+              <div class="product__photo-wrapper">
+                <img src="img/result/second-product.webp" alt="фото товара" class="product__photo">
+              </div>
+              <div class="product__text-content">
+                <div class="product__characteristics">
+                  <h5 class="product__name">Рулевая рейка 2GS1806C</h5>
+                  <p class="product__description">Гидравлическая рулевая рейка с 2-мя точками крепления, трубками на резьбе и штуцерами вход/выход в сторону правой рулевой тяги. GS</p>
+                  <p class="product__auto-model">Модель авто: <span>Chevrolet Lacetti 2003-</span></p>
+                  <div class="product__price-and-availability-wrapper">
+                    <div class="product__availability">
+                      <img src="img/result/mark.svg" alt="галочка" class="product__availability-mark">
+                      <p class="product__availability-text">Есть в наличии</p>
+                    </div>
+                    <p class="product__price">19 324 руб.</p>
+                  </div>
+                </div>             
+                <button class="product__cart-btn"><img src="img/header/cart-icon.svg" alt="корзина" class="product__cart-img"><span class="product__cart-text">Добавить в корзину</span></button>
+              </div>
+            </div> 
+
+            <div class="result__item product">
+              <div class="product__photo-wrapper">
+                <img src="img/result/second-product.webp" alt="фото товара" class="product__photo">
+              </div>
+              <div class="product__text-content">
+                <div class="product__characteristics">
+                  <h5 class="product__name">2GS1806</h5>
+                  <p class="product__description">Гидравлическая рулевая рейка</p>
+                  <p class="product__auto-model">Модель авто:  <span>Chevrolet Lacetti 2003-</span></p>
+                  <div class="product__price-and-availability-wrapper">
+                    <div class="product__availability">
+                      <img src="img/result/mark.svg" alt="галочка" class="product__availability-mark">
+                      <p class="product__availability-text">Есть в наличии</p>
+                    </div>
+                    <p class="product__price">18 055 руб.</p>
+                  </div>
+                </div>             
+                <button class="product__cart-btn"><img src="img/header/cart-icon.svg" alt="корзина" class="product__cart-img"><span class="product__cart-text">Добавить в корзину</span></button>
+              </div>
+            </div> 
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="footer-map">
+        <iframe class="footer-map__map" src="https://yandex.ru/map-widget/v1/?um=constructor%3A8efada2c7cdaa2ab44f8db48e21d835f1893d4ebbaa560f493b7c71b86aeec39&amp;source=constructor" width="1280" height="720" frameborder="0"></iframe>
+        <div class="footer-map__contact">
+          <h6 class="footer-map__title">СВЯЖИТЕСЬ С НАМИ!</h6>
+          <div class="footer-map__contact-list contact">
+            <div class="footer-map__adress adress">
+              <div class="footer-map__icon-wrapper">
+                <img src="img/footer/locate.svg" alt="местонахождения" class="adress__icon">
+              </div>
+              <div class="adress__text-content contact__text-content">
+                <h6 class="contact__title">Адрес</h6>
+                <p class="contact__contact">г. Владимир, ул. Поселковая 1</p>
+              </div>
+            </div>
+            <div class="footer-map__phones phones">
+              <div class="footer-map__icon-wrapper">
+                <img src="img/footer/phone.svg" alt="телефон" class="phones__icon">
+              </div>
+              <div class="phones__text-content contact__text-content">
+                <h6 class="contact__title">Телефоны</h6>
+                <p class="phones__phone">8 (4922) 46-47-47</p>
+                <p class="phones__phone">8 (910) 779-97-77</p>
+                <p class="phones__phone">8-800-500-15-40 (звонок бесплатный)</p>
+              </div>
+            </div>
+            <div class="footer-map__mail mail">
+              <div class="footer-map__icon-wrapper">
+                <img src="img/footer/mail.svg" alt="почта" class="mail__icon">
+              </div>
+              <div class="mail__text-content contact__text-content">
+                <h6 class="contact__title">E-mail</h6>
+                <p class="contact__contact">office@gidro-sistema.ru</p>
+              </div>
+            </div>
+            <div class="footer-map__time time">
+              <div class="footer-map__icon-wrapper">
+                <img src="img/footer/watch.svg" alt="часы" class="time__icon">
+              </div>
+              <div class="time__text-content contact__text-content">
+                <h6 class="contact__title">Время работы</h6>
+                <p class="contact__contact">Пн-Пт 9:00 — 19:00</p>
+                <p class="contact__contact">Сб 9:00 — 17:00</p>
+                <p class="contact__contact">Вc 9:00 — 17:00</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer__middle footer-middle">
+        <div class="footer-middle__container _container">
+          <div class="footer-middle__logo-wrapper">
+            <a href="index.html" class="footer-middle__logo"><img src="img/footer/logo.svg" alt="логотип" class="footer-middle__logo-img"></a>
+          </div>
+          <div class="footer-middle__contact footer-middle-contact">
+            <div class="footer-middle-contact__block">
+              <div class="footer-middle-contact__wrapper">
+                <div class="footer-middle-contact__image-wrapper">
+                  <img src="img/footer/phone.svg" alt="телефон" class="footer-middle-contact__phone-icon">
+                </div>
+                <a href="tel:+78005001540" class="footer-middle-contact__data-number">8 (800) 500-15-40</a>
+              </div>
+              <p class="footer-middle-contact__call-order">Заказать звонок</p>
+            </div>
+            <div class="footer-middle-contact__wrapper">
+              <div class="footer-middle-contact__image-wrapper">
+                <img src="img/footer/mail.svg" alt="почта" class="footer-middle-contact__mail-icon">
+              </div>
+              <p class="footer-middle-contact__data">office@gidro-sistema.ru</p>
+            </div>
+          </div>
+          <div class="footer-middle__filial-info filial-info">
+            <div class="filial-info__block">
+              <div class="footer-middle-contact__image-wrapper">
+                <img src="img/footer/locate.svg" alt="адрес" class="filial-info__locate-icon">
+              </div>
+              <p class="filial-info__text">г. Владимир, ул. Поселковая 1</p>
+            </div>
+            <div class="filial-info__block">
+              <div class="footer-middle-contact__image-wrapper">
+                <img src="img/footer/watch.svg" alt="часы" class="filial-info__watch-icon">
+              </div>
+              <div class="filial-info__text-wrapper">
+                <p class="filial-info__text">Режим работы:</p>
+                <p class="filial-info__text-graphick">Пн-пт 9:00 — 19:00,</p>
+                <p class="filial-info__text-graphick">Сб-вс 9:00 — 17:00</p>
+              </div>
+            </div>
+          </div>
+          <div class="footer-middle__social-media social-media">
+            <p class="social-media__text">Социальные сети</p>
+            <div class="social-media__list">
+              <a target="_blank" href="https://vk.com/" class="social-media__link"><img src="img/footer/vk.svg" alt="вк" class="social-media__vk-icon"></a>
+              <a target="_blank" href="https://ok.ru/" class="social-media__link"><img src="img/footer/ok.svg" alt="одноклассники" class="social-media__ok-icon"></a>
+              <a target="_blank" href="https://www.skype.com/" class="social-media__link"><img src="img/footer/skype.svg" alt="скайп" class="social-media__skype-icon"></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div class="footer-bottom__container _container">
+          <p class="footer-bottom__text left-text">© 2022 Гидро-система. Копирование и использование всех материалов с сайта возможно только с разрешения администрации сайта gidro-sistema.ru.</p>
+          <a target="_blank" href="https://promo-link.ru/" class="footer-bottom__text right-text">Разработка сайта Promo-link, 2022</a>
+        </div>
+      </div>
+    </footer>
+  </div>
+  <script src="js/index.js"></script>
+</body>
+</html>

@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Доставка и оплата</title>
+  <!--favicon-->
+  <link rel="apple-touch-icon" sizes="120x120" href="../img/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="../img/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="../img/favicon/favicon-16x16.png">
+  <link rel="manifest" href="../img/favicon/site.webmanifest">
+  <link rel="mask-icon" href="../img/favicon/safari-pinned-tab.svg" color="#ff7239">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="theme-color" content="#ffffff">
+  <!--fonts-->
+  <link rel="stylesheet" href="../css/font.css" type="text/css">
+  <!--styles-->
+  <link rel="stylesheet" href="../css/reset.css" type="text/css">
+  <link rel="stylesheet" href="../css/style.css" type="text/css">
+  <link rel="stylesheet" href="../css/adaption.css" type="text/css">
+</head>
+<body>
+  <div class="_wrapper">
+    <header class="header">
+      <div class="header__top header-top">
+        <div class="header-top__container _container">
+          <div class="header-top__info-wrapper">
+            <a href="../index.html" class="header-top__logo header-logo">
+              <img src="../img/header/logo.png" alt="логотип" class="header-logo__icon">
+              <span class="header-logo__contebt-wrapper">
+                <img src="../img/header/words.png" alt="фестиваль суши" class="header-logo__words">
+                <p class="header-logo__sub-title">Доставка еды для каждого <br> в Городце, Заволжье и Балахне</p>
+              </span>
+            </a>
+            <div class="header-top__city-and-schedule header-top__city-and-schedule-desktop">
+              <div class="header-top__city header-city">
+                <img src="../img/header/city.svg" alt="город" class="header-city__icon">
+                <div class="header-city__wrapper">
+                  <p class="header-city__choice">Городец</p>
+                  <img src="../img/header/arrow.svg" alt="стрелка" class="header-city__choice-icon">
+                </div>
+              </div>
+              <div class="header-top__schedule header-schedule">
+                <img src="../img/header/watch.svg" alt="часы" class="header-schedule__icon">
+                <div class="header-schedule__text-wrapper">
+                  <h5 class="header-schedule__title">Время работы</h5>
+                  <p class="header-schedule__value">С 10:00 до 22:00 <br> Прием заказов до 21:30</p>
+                </div>
+              </div>
+            </div>
+            <div class="header-top__social-media header-social-media header-social-media-desktop">
+              <a href="https://web.telegram.org/" target="_blank" class="header-social-media__link"><img src="../img/header/telegram.svg" alt="телеграм" class="header-social-media__icon"></a>
+              <a href="https://vk.com/" target="_blank" class="header-social-media__link"><img src="../img/header/vk.svg" alt="вк" class="header-social-media__icon"></a>
+            </div>
+            <a href="tel: +280-96-89" class="header-top__call header-call">
+              <img src="../img/header/call.svg" alt="звонок" class="header-call__icon">
+              <p class="header-call__text">280-96-89</p>
+            </a>
+          </div>
+          <div class="header-top__login-and-cart">
+            <div class="header-top__login header-login header-login-desktop">
+              <div class="header-login__icon-wrapper"><img src="../img/header/login.svg" alt="вход в профиль" class="header-login__icon"></div>
+              <p class="header-login__text">Войти</p>
+            </div>
+            <a href="#" class="header-top__cart header-cart">
+              <span class="header-cart__icon-wrapper">
+                <img src="../img/header/cart.svg" alt="корзина" class="header-cart__icon">
+                <span class="header-cart__product-counter">2</span>
+              </span>
+              <span class="header-cart__text-wrapper">
+                <p class="header-cart__text">В КОРЗИНЕ</p>
+                <p class="header-cart__sum">285 руб.</p>
+              </span>
+            </a>
+            <div class="header-top__menu-icon">
+              <span></span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <nav class="header__menu menu">
+        <div class="menu__container _container">
+          <div class="header-top__city-and-schedule header-top__city-and-schedule-mobile">
+            <div class="header-top__city header-city">
+              <img src="../img/header/city.svg" alt="город" class="header-city__icon">
+              <div class="header-city__wrapper">
+                <p class="header-city__choice">Городец</p>
+                <img src="../img/header/arrow.svg" alt="стрелка" class="header-city__choice-icon">
+              </div>
+            </div>
+            <div class="header-top__schedule header-schedule">
+              <img src="../img/header/watch.svg" alt="часы" class="header-schedule__icon">
+              <div class="header-schedule__text-wrapper">
+                <h5 class="header-schedule__title">Время работы</h5>
+                <p class="header-schedule__value">С 10:00 до 22:00 <br class="br1"> Прием заказов до 21:30</p>
+              </div>
+            </div>
+          </div>
+          <div class="menu__social-media-and-ligin">
+            <div class="header-top__login header-login header-login-mobile">
+              <div class="header-login__icon-wrapper"><img src="../img/header/login.svg" alt="вход в профиль" class="header-login__icon"></div>
+              <p class="header-login__text">Войти</p>
+            </div>
+            <div class="header-top__social-media header-social-media header-social-media-mobile">
+              <a href="https://web.telegram.org/" target="_blank" class="header-social-media__link"><img src="../img/header/telegram.svg" alt="телеграм" class="header-social-media__icon"></a>
+              <a href="https://vk.com/" target="_blank" class="header-social-media__link"><img src="../img/header/vk.svg" alt="вк" class="header-social-media__icon"></a>
+            </div>
+          </div>
+          <ul class="menu__list">
+            <li><a href="../index.html" class="menu__link _active">Главная</a></li>
+            <li><a href="#" class="menu__link">Меню</a></li>
+            <li><a href="#" class="menu__link">О нас</a></li>
+            <li><a href="promo.html" class="menu__link">Акции</a></li>
+            <li><a href="delivery-info.html" class="menu__link">Доставка и оплата</a></li>
+            <li><a href="vacancies.html" class="menu__link">Вакансии</a></li>
+            <li><a href="#" class="menu__link">Контакты</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main class="main">
+      <section class="delivery-order">
+        <div class="delivery-order__container _container">
+          <nav class="promo__navigation">
+            <a href="../index.html" class="promo__prev-page">Главная</a>
+            <span class="promo__slesh">/</span>
+            <a href="promo.html" class="promo__this-page">Доставка и оплата</a>
+          </nav>
+          <form action="#" class="delivery-order__order order">
+            <div class="order__content">
+              <h2 class="order__title">Оформление заказа</h2>
+              <nav class="order__tabs">
+                <div class="order__delivery-tab order__tab _active">
+                  <img src="../img/pages/delivery-order/delivery.svg" alt="доставка" class="order__tab-icon-delivery">
+                  <p class="order__tab-name order__tab-name-delivery _active">Доставка</p>
+                </div>
+                <div class="order__pickup-tab order__tab">
+                  <img src="../img/pages/delivery-order/pickup.svg" alt="самовывоз" class="order__tab-icon-pickup">
+                  <p class="order__tab-name order__tab-name-pickup">Самовывоз</p>
+                </div>
+              </nav>
+              <div class="order__tab-delivery-content _active order-tab">
+                <div class="order__user-data data-forms">
+                  <div class="data-forms__big-wrapper">
+                    <div class="data-forms__form-wrapper">
+                      <p class="data-forms__name">ФИО <span>*</span></p>
+                      <input type="text" class="data-forms__form">
+                    </div>
+                    <div class="data-forms__form-wrapper">
+                      <p class="data-forms__name">Телефон <span>*</span></p>
+                      <input type="text" class="data-forms__form">
+                    </div>
+                  </div>
+                  <div class="data-forms__container">
+                    <h5 class="data-forms__title">Адрес доставки</h5>
+                    <div class="data-forms__big-wrapper">
+                      <div class="data-forms__form-wrapper">
+                        <p class="data-forms__name">Населенный пункт <span>*</span></p>
+                        <input type="text" class="data-forms__form">
+                      </div>
+                      <div class="data-forms__form-wrapper">
+                        <p class="data-forms__name">Улица <span>*</span></p>
+                        <input type="text" class="data-forms__form">
+                      </div>
+                    </div>
+                  </div>
+                  <div class="data-forms__small-wrapper">
+                    <div class="data-forms__form-wrapper">
+                      <p class="data-forms__name">Дом <span>*</span></p>
+                      <input type="text" class="data-forms__form data-forms__form-small">
+                    </div>
+                    <div class="data-forms__form-wrapper">
+                      <p class="data-forms__name">Квартира</p>
+                      <input type="text" class="data-forms__form data-forms__form-small">
+                    </div>
+                    <div class="data-forms__form-wrapper">
+                      <p class="data-forms__name">Этаж</p>
+                      <input type="text" class="data-forms__form data-forms__form-small">
+                    </div>
+                    <div class="data-forms__form-wrapper">
+                      <p class="data-forms__name">Подъезд</p>
+                      <input type="text" class="data-forms__form data-forms__form-small">
+                    </div>
+                  </div>
+                </div>
+                <div class="order-tab__details order-details">
+                  <div class="order-details__adress-wrapper">
+                    <h5 class="order-details__adress-title">Мои адреса доставки</h5>
+                    <div class="order-details__adress-select-wrapper">
+                      <select class="order-details__adress">
+                        <option value="" disabled selected>Выберете адрес</option>
+                        <option value="123">г. Заволжье, Проспект Гагарина, 7 , кв. 90</option>
+                      </select>
+                      <img src="../img/pages/delivery-order/adress-arrow.svg" alt="срелка" class="order-details__icon">
+                    </div>
+                  </div>
+                  <div class="order-details__cutlery-wrapper cutlery">
+                    <p class="cutlery__text">Количество приборов</p>
+                    <div class="cutlery__counter">
+                      <span class="cutlery__counter-item cutlery__counter-minus">-</span>
+                      <p class="cutlery__counter-result">1</p>
+                      <span class="cutlery__counter-item cutlery__counter-plus">+</span>
+                    </div>
+                  </div>
+                  <div class="order-details__time order-time">
+                    <h5 class="order-time__title">Время доставки</h5>
+                    <div class="order-time__options">
+                      <label class="order-time__option order-time__option-faster">
+                        <input type="radio" class="order-time__radio" name="time-radio">
+                        <span class="order-time__fake"></span>
+                        <p class="order-time__option-text">Как можно скорее</p>
+                      </label>
+                      <label class="order-time__option order-time__option-time">
+                        <input type="radio" class="order-time__radio" name="time-radio">
+                        <span class="order-time__fake"></span>
+                        <p class="order-time__option-text">Ко времени:</p>
+                      </label>
+                    </div>
+                    <div class="order-time__time-wrapper">
+                      <label class="order-time__date-wrapper">
+                        <input type="date" class="order-time__date" value="2022-07-10">
+                      </label>
+                      <label class="order-time__time-container">
+                        <select class="order-time__time">
+                          <option value="1234" class="order-time__item">19:00</option>
+                        </select>
+                        <img src="../img/pages/delivery-order/time-arrow.svg" alt="стрелка" class="order-time__icon">
+                      </label>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <aside class="order__sidebar order-pay">
+              <div class="order-pay__wrapper">
+                <div class="order-pay__way pay-way">
+                  <h5 class="pay-way__title">Способ оплаты</h5>
+                  <div class="pay-way__wrapper">
+                    <label class="pay-way__way">
+                      <input type="radio" name="pay-radio" class="pay-way__radio">
+                      <span class="pay-way__fake"></span>
+                      <p class="pay-way__text">Наличные</p>
+                    </label>
+                    <label class="pay-way__way">
+                      <input type="radio" name="pay-radio" class="pay-way__radio">
+                      <span class="pay-way__fake"></span>
+                      <p class="pay-way__text">Картой курьеру</p>
+                    </label>
+                  </div>
+                </div>
+                <div class="order-pay__change change">
+                  <h5 class="change__title">С какой суммы сдача?</h5>
+                  <input type="text" class="change__form">
+                </div>
+                <div class="order-pay__compound compound">
+                  <h5 class="compound__title">Состав заказа</h5>
+                  <div class="compound__list">
+                    <div class="compound__item">
+                      <p class="compound__product">Филадельфия с креветкой</p>
+                      <p class="compound__price">240 руб.</p>
+                    </div>
+                    <div class="compound__item">
+                      <p class="compound__product">Калифорния с лососем</p>
+                      <p class="compound__price">260 руб.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="order-pay__total pay-total">
+                  <h5 class="pay-total__title">Итого</h5>
+                  <div class="pay-total__wrapper">
+                    <p class="pay-total__text">Сумма к оплате</p>
+                    <p class="pay-total__sum">500 руб.</p>
+                  </div>
+                </div>
+              </div>
+              <input type="submit" class="order-pay__submit" value="Оформить заказ">
+              <div class="order-pay__warn-wrapper">
+                <p class="order-pay__warn">Нажимая кнопку «Оплатить заказ» вы соглашаетесь с политикой обработки персональных данных</p>
+              </div>
+            </aside>
+          </form>
+          <a href="#" class="promo__button"><img src="../img/pages/promo/arrow.svg" alt="стрелка" class="promo__arrow"><span>Назад</span></a>
+        </div>
+      </section>
+      <section class="feedback">
+        <img src="../img/feedback/rolls1.webp" alt="роллы" class="feedback__rolls1">
+        <img src="../img/feedback/rolls2.webp" alt="роллы" class="feedback__rolls2">
+        <div class="feedback__container _container">
+          <img src="../img/feedback/girl.webp" alt="девушка" class="feedback__girl">
+          <div class="feedback__content-wrapper">
+            <div class="feedback__text-content">
+              <h5 class="feedback__title">Свяжитесь с нами!</h5>
+              <img src="../img/feedback/message.svg" alt="сообщение" class="feedback__message">
+            </div>
+            <form action="#" class="feedback__form-content">
+              <div class="feedback__name-and-phone">
+                <input type="text" class="feedback__name-and-phone-form" placeholder="Ваше имя">
+                <input type="text" class="feedback__name-and-phone-form" placeholder="Телефон">
+              </div>
+              <div class="feedback__email-and-appeal">
+                <input type="email" class="feedback__email-form feedback__name-and-phone-form" placeholder="E-mail">
+                <div class="feedback__appeal-wrapper">
+                  <p class="feedback__appeal-text">Тип обращения:</p>
+                  <div class="feedback__appeal-select-wrapper">
+                    <select class="feedback__appeal">
+                      <option value="4">Отзыв</option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+              <textarea class="feedback__message-form" placeholder="Сообщение"></textarea>
+              <label class="feedback__file-wrapper">
+                <input type="file" class="feedback__file">
+                <div class="feedback__file-icon-wrapper"><img src="../img/feedback/file.svg" alt="скрепка" class="feedback__file-icon"></div>
+                <p class="feedback__file-text">Прикрепить файл (фото jpeg, png)</p>
+              </label>
+              <div class="feedback__politic-and-submit politic">
+                <p class="politic__text">Нажимая кнопку "Отправить" вы соглашаетесь с условиями политики конфиденциальности</p>
+                <input type="submit" class="feedback__submit" value="Отправить!">
+              </div>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="footer__top footer-top">
+        <div class="footer-top__container _container">
+          <a href="index.html" class="footer-top__logo footer-logo">
+            <img src="../img/header/logo.png" alt="логотип" class="footer-logo__img">
+            <span class="footer-logo__text-wrapper">
+              <img src="../img/header/words.png" alt="фкстиваль суши" class="footer-logo__words">
+              <p class="footer-logo__text">Доставка еды для каждого в Городце, Заволжье и Балахне</p>
+            </span>
+          </a>
+          <div class="footer-top__numbers-list footer-numbers">
+            <div class="footer-number__item">
+              <div class="footer-number__text-wrapper">
+                <img src="../img/footer/adress.svg" alt="адрес" class="footer-number__adress-icon">
+                <p class="footer-number__adres-text">Городец, ул. Чернышевского, 2а</p>
+              </div>
+              <a href="tel: +79990729900" class="footer-number__link">
+                <img src="../img/footer/phone.svg" alt="телефон" class="footer-number__icon">
+                <p class="footer-number__text">8 (999) 072-99-00</p>
+              </a>
+            </div>
+            <div class="footer-number__item">
+              <div class="footer-number__text-wrapper">
+                <img src="../img/footer/adress.svg" alt="адрес" class="footer-number__adress-icon">
+                <p class="footer-number__adres-text">Заволжье, ул. Мичурина, 34</p>
+              </div>
+              <a href="tel: +79990757172" class="footer-number__link">
+                <img src="../img/footer/phone.svg" alt="телефон" class="footer-number__icon">
+                <p class="footer-number__text">8 (999) 075-71-72</p>
+              </a>
+            </div>
+            <div class="footer-number__item">
+              <div class="footer-number__text-wrapper">
+                <img src="../img/footer/adress.svg" alt="адрес" class="footer-number__adress-icon">
+                <p class="footer-number__adres-text">Балахна, пр. Революции, 10а</p>
+              </div>
+              <a href="tel: +79990710499" class="footer-number__link">
+                <img src="../img/footer/phone.svg" alt="телефон" class="footer-number__icon">
+                <p class="footer-number__text">8 (999) 071-04-99</p>
+              </a>
+            </div>
+          </div>
+          <div class="footer-top__schedule-and-social-media">
+            <div class="footer-top__schedule footer-schedule">
+              <img src="../img/footer/watch.svg" alt="часы" class="footer-schedule__watch-icon">
+              <div class="footer-schedule__text-wrapper">
+                <h6 class="footer-schedule__title">Время работы</h6>
+                <p class="footer-schedule__text">С 10:00 до 22:00 <br> Прием заказов до 21:30</p>
+              </div>
+            </div>
+            <div class="footer-top__social-media footer-social-media">
+              <p class="footer-social-media__text">Присоединяйтесь!</p>
+              <div class="footer-social-media__links">
+                <a href="https://web.telegram.org/" target="_blank" class="footer-social-media__wrapper">
+                  <img src="../img/footer/telegram.svg" alt="телеграм" class="footer-social-media__icon">
+                </a>
+                <a href="https://vk.com/" target="_blank" class="footer-social-media__wrapper">
+                  <img src="../img/footer/vk.svg" alt="вк" class="footer-social-media__icon">
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer__menu footer-menu">
+        <div class="footer-menu__container _container">
+          <ul class="footer-menu__list">
+            <li><a href="#" class="footer-menu__link">Главная</a></li>
+            <li><a href="#" class="footer-menu__link">Меню</a></li>
+            <li><a href="#" class="footer-menu__link">О нас</a></li>
+            <li><a href="#" class="footer-menu__link">Акции</a></li>
+            <li><a href="#" class="footer-menu__link">Доставка и оплата</a></li>
+            <li><a href="#" class="footer-menu__link">Вакансии</a></li>
+            <li><a href="#" class="footer-menu__link">Контакты</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__bottom footer-bottom">
+        <div class="footer-bottom__container _container">
+          <div class="footer-bottom__site-links">
+            <a href="#" class="footer-bottom__site-link">Политика конфиденциальности</a>
+            <a href="#" class="footer-bottom__site-link">Публичная оферта</a>
+          </div>
+          <a href="https://promo-link.ru/" target="_blank" class="footer-bottom__dev-link">Разработка сайта Promolink 2022</a>
+        </div>
+      </div>
+    </footer>
+  </div>
+  <script src="../js/delivery-order.js"></script>
+</body>
+</html>

@@ -1,0 +1,814 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Фестиваль Суши</title>
+  <!--favicon-->
+  <link rel="apple-touch-icon" sizes="120x120" href="img/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+  <link rel="manifest" href="img/favicon/site.webmanifest">
+  <link rel="mask-icon" href="img/favicon/safari-pinned-tab.svg" color="#ff7239">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="theme-color" content="#ffffff">
+  <!--fonts-->
+  <link rel="stylesheet" href="css/font.css" type="text/css">
+  <!--styles-->
+  <link rel="stylesheet" href="css/reset.css" type="text/css">
+  <link rel="stylesheet" href="css/swiper.css" type="text/css">
+  <link rel="stylesheet" href="css/style.css" type="text/css">
+  <link rel="stylesheet" href="css/adaption.css" type="text/css">
+</head>
+<body>
+  <div class="_wrapper">
+    <header class="header">
+      <div class="header__top header-top">
+        <div class="header-top__container _container">
+          <div class="header-top__info-wrapper">
+            <a href="index.html" class="header-top__logo header-logo">
+              <img src="img/header/logo.png" alt="логотип" class="header-logo__icon">
+              <span class="header-logo__contebt-wrapper">
+                <img src="img/header/words.png" alt="фестиваль суши" class="header-logo__words">
+                <p class="header-logo__sub-title">Доставка еды для каждого <br> в Городце, Заволжье и Балахне</p>
+              </span>
+            </a>
+            <div class="header-top__city-and-schedule header-top__city-and-schedule-desktop">
+              <div class="header-top__city header-city">
+                <img src="img/header/city.svg" alt="город" class="header-city__icon">
+                <div class="header-city__wrapper">
+                  <p class="header-city__choice">Городец</p>
+                  <img src="img/header/arrow.svg" alt="стрелка" class="header-city__choice-icon">
+                </div>
+              </div>
+              <div class="header-top__schedule header-schedule">
+                <img src="img/header/watch.svg" alt="часы" class="header-schedule__icon">
+                <div class="header-schedule__text-wrapper">
+                  <h5 class="header-schedule__title">Время работы</h5>
+                  <p class="header-schedule__value">С 10:00 до 22:00 <br> Прием заказов до 21:30</p>
+                </div>
+              </div>
+            </div>
+            <div class="header-top__social-media header-social-media header-social-media-desktop">
+              <a href="https://web.telegram.org/" target="_blank" class="header-social-media__link"><img src="img/header/telegram.svg" alt="телеграм" class="header-social-media__icon"></a>
+              <a href="https://vk.com/" target="_blank" class="header-social-media__link"><img src="img/header/vk.svg" alt="вк" class="header-social-media__icon"></a>
+            </div>
+            <a href="tel: +280-96-89" class="header-top__call header-call">
+              <img src="img/header/call.svg" alt="звонок" class="header-call__icon">
+              <p class="header-call__text">280-96-89</p>
+            </a>
+          </div>
+          <div class="header-top__login-and-cart">
+            <div class="header-top__login header-login header-login-desktop">
+              <div class="header-login__icon-wrapper"><img src="img/header/login.svg" alt="вход в профиль" class="header-login__icon"></div>
+              <p class="header-login__text">Войти</p>
+            </div>
+            <a href="#" class="header-top__cart header-cart">
+              <span class="header-cart__icon-wrapper">
+                <img src="img/header/cart.svg" alt="корзина" class="header-cart__icon">
+                <span class="header-cart__product-counter">2</span>
+              </span>
+              <span class="header-cart__text-wrapper">
+                <p class="header-cart__text">В КОРЗИНЕ</p>
+                <p class="header-cart__sum">285 руб.</p>
+              </span>
+            </a>
+            <div class="header-top__menu-icon">
+              <span></span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <nav class="header__menu menu">
+        <div class="menu__container _container">
+          <div class="header-top__city-and-schedule header-top__city-and-schedule-mobile">
+            <div class="header-top__city header-city">
+              <img src="img/header/city.svg" alt="город" class="header-city__icon">
+              <div class="header-city__wrapper">
+                <p class="header-city__choice">Городец</p>
+                <img src="img/header/arrow.svg" alt="стрелка" class="header-city__choice-icon">
+              </div>
+            </div>
+            <div class="header-top__schedule header-schedule">
+              <img src="img/header/watch.svg" alt="часы" class="header-schedule__icon">
+              <div class="header-schedule__text-wrapper">
+                <h5 class="header-schedule__title">Время работы</h5>
+                <p class="header-schedule__value">С 10:00 до 22:00 <br class="br1"> Прием заказов до 21:30</p>
+              </div>
+            </div>
+          </div>
+          <div class="menu__social-media-and-ligin">
+            <div class="header-top__login header-login header-login-mobile">
+              <div class="header-login__icon-wrapper"><img src="img/header/login.svg" alt="вход в профиль" class="header-login__icon"></div>
+              <p class="header-login__text">Войти</p>
+            </div>
+            <div class="header-top__social-media header-social-media header-social-media-mobile">
+              <a href="https://web.telegram.org/" target="_blank" class="header-social-media__link"><img src="img/header/telegram.svg" alt="телеграм" class="header-social-media__icon"></a>
+              <a href="https://vk.com/" target="_blank" class="header-social-media__link"><img src="img/header/vk.svg" alt="вк" class="header-social-media__icon"></a>
+            </div>
+          </div>
+          <ul class="menu__list">
+            <li><a href="index.html" class="menu__link _active">Главная</a></li>
+            <li><a href="#" class="menu__link">Меню</a></li>
+            <li><a href="#" class="menu__link">О нас</a></li>
+            <li><a href="pages/promo.html" class="menu__link">Акции</a></li>
+            <li><a href="pages/delivery-info.html" class="menu__link">Доставка и оплата</a></li>
+            <li><a href="pages/vacancies.html" class="menu__link">Вакансии</a></li>
+            <li><a href="#" class="menu__link">Контакты</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <div class="events">
+        <div class="events__container _container">
+          <div class="events__swiper swiper">
+            <div class="events__swiper-wrapper swiper-wrapper">
+              <a href="#" class="events__slide swiper-slide">
+                <img src="img/events/first.webp" alt="событие магазина" class="events__image">
+              </a>
+              <a href="#" class="events__slide swiper-slide">
+                <img src="img/events/second.webp" alt="событие магазина" class="events__image">
+              </a>
+              <a href="#" class="events__slide swiper-slide">
+                <img src="img/events/third.webp" alt="событие магазина" class="events__image">
+              </a>
+              <a href="#" class="events__slide swiper-slide">
+                <img src="img/events/first.webp" alt="событие магазина" class="events__image">
+              </a>
+              <a href="#" class="events__slide swiper-slide">
+                <img src="img/events/second.webp" alt="событие магазина" class="events__image">
+              </a>
+              <a href="#" class="events__slide swiper-slide">
+                <img src="img/events/third.webp" alt="событие магазина" class="events__image">
+              </a>
+            </div>
+            <div class="events__prev swiper-button-prev"></div>
+            <div class="events__next swiper-button-next"></div>
+          </div>
+        </div>
+      </div>
+      <section class="benefits">
+        <div class="benefits__container _container">
+          <div class="benefits__item benefits__time-item">
+            <img src="img/benefits/time.svg" alt="время доставки" class="benefits__img benefits__time-img">
+            <h3 class="benefits__title">Время доставки</h3>
+            <p class="benefits__text">От 40 минут в будни и от часа в выходные и праздничные дни</p>
+          </div>
+          <div class="benefits__item benefits__terms-item">
+            <img src="img/benefits/terms.svg" alt="условия доставки" class="benefits__img benefits__terms-img">
+            <h3 class="benefits__title">Условия доставки</h3>
+            <p class="benefits__text">Бесплатная доставка от 400 рублей по городу, далее в зависимости от адреса</p>
+            <a href="#" class="benefits__button">Рассчитать стоимость</a>
+          </div>
+          <div class="benefits__item benefits__pickup-item">
+            <img src="img/benefits/pickup.svg" alt="самовывоз" class="benefits__img benefits__pickup-img">
+            <h3 class="benefits__title">Самовывоз</h3>
+            <p class="benefits__text">Бесплатно с 10:00 до 21:30</p>
+            <a href="#" class="benefits__button">Адреса самовывоза</a>
+          </div>
+        </div>
+      </section>
+      <section class="food-menu">
+        <div class="food-menu__container _container">
+          <div class="food-menu__category-and-filters">
+            <div class="food-menu__category category swiper">
+              <div class="category__swiper-wrapper swiper-wrapper">  
+                <div class="category__item category__slide swiper-slide _active">
+                  <div class="category__image-wrapper">
+                    <div class="category__image-wrapper-inner">
+                      <img src="img/food-menu/rolls.webp" alt="роллы" class="category__food-photo">
+                    </div>
+                  </div>
+                  <p class="category__name">Роллы</p>
+                </div>
+                <div class="category__item category__slide swiper-slide">
+                  <div class="category__image-wrapper">
+                    <div class="category__image-wrapper-inner">
+                      <img src="img/food-menu/pizza.webp" alt="пицца" class="category__food-photo">
+                    </div>
+                  </div>
+                  <p class="category__name">Пицца</p>
+                </div>
+                <div class="category__item category__slide swiper-slide">
+                  <div class="category__image-wrapper">
+                    <div class="category__image-wrapper-inner">
+                      <img src="img/food-menu/hot.webp" alt="горячая кухня" class="category__food-photo">
+                    </div>
+                  </div>
+                  <p class="category__name">Горячая кухня</p>
+                </div>
+                <div class="category__item category__slide swiper-slide">
+                  <div class="category__image-wrapper">
+                    <div class="category__image-wrapper-inner">
+                      <img src="img/food-menu/tempurn-rolls.webp" alt="Темпурные роллы" class="category__food-photo">
+                    </div>
+                  </div>
+                  <p class="category__name">Темпурные роллы</p>
+                </div>
+                <div class="category__item category__slide swiper-slide">
+                  <div class="category__image-wrapper">
+                    <div class="category__image-wrapper-inner">
+                      <img src="img/food-menu/assorti.webp" alt="ассорти" class="category__food-photo">
+                    </div>
+                  </div>
+                  <p class="category__name">Ассорти</p>
+                </div>
+                <div class="category__item category__slide swiper-slide">
+                  <div class="category__image-wrapper">
+                    <div class="category__image-wrapper-inner">
+                      <img src="img/food-menu/other-rolls.webp" alt="Другие роллы" class="category__food-photo">
+                    </div>
+                  </div>
+                  <p class="category__name">Другие роллы</p>
+                </div>
+
+                <div class="category__item category__slide swiper-slide">
+                  <div class="category__image-wrapper">
+                    <div class="category__image-wrapper-inner">
+                      <img src="img/food-menu/rolls.webp" alt="роллы" class="category__food-photo">
+                    </div>
+                  </div>
+                  <p class="category__name">Роллы</p>
+                </div>
+                <div class="category__item category__slide swiper-slide">
+                  <div class="category__image-wrapper">
+                    <div class="category__image-wrapper-inner">
+                      <img src="img/food-menu/pizza.webp" alt="пицца" class="category__food-photo">
+                    </div>
+                  </div>
+                  <p class="category__name">Пицца</p>
+                </div>
+                <div class="category__item category__slide swiper-slide">
+                  <div class="category__image-wrapper">
+                    <div class="category__image-wrapper-inner">
+                      <img src="img/food-menu/hot.webp" alt="горячая кухня" class="category__food-photo">
+                    </div>
+                  </div>
+                  <p class="category__name">Горячая кухня</p>
+                </div>
+                <div class="category__item category__slide swiper-slide">
+                  <div class="category__image-wrapper">
+                    <div class="category__image-wrapper-inner">
+                      <img src="img/food-menu/tempurn-rolls.webp" alt="Темпурные роллы" class="category__food-photo">
+                    </div>
+                  </div>
+                  <p class="category__name">Темпурные роллы</p>
+                </div>
+                <div class="category__item category__slide swiper-slide">
+                  <div class="category__image-wrapper">
+                    <div class="category__image-wrapper-inner">
+                      <img src="img/food-menu/assorti.webp" alt="ассорти" class="category__food-photo">
+                    </div>
+                  </div>
+                  <p class="category__name">Ассорти</p>
+                </div>
+                <div class="category__item category__slide swiper-slide">
+                  <div class="category__image-wrapper">
+                    <div class="category__image-wrapper-inner">
+                      <img src="img/food-menu/other-rolls.webp" alt="Другие роллы" class="category__food-photo">
+                    </div>
+                  </div>
+                  <p class="category__name">Другие роллы</p>
+                </div>
+              </div>
+              <div class="category__prev swiper-button-prev"></div>
+              <div class="category__next swiper-button-next"></div>
+            </div>
+            <div class="food-menu__filters filters">
+              <div class="filters__buttons">
+                <div class="filters__ingredients ingredients">
+                  <div class="ingredients__icon-wrapper">
+                    <img src="img/food-menu/orange-plus.svg" alt="фильтр по ингридиентам" class="ingredients__icon ingredients__icon-orange">
+                    <img src="img/food-menu/white-plus.svg" alt="фильтр по ингридиентам" class="ingredients__icon">
+                    </div>
+                  <p class="ingredients__text">Фильтр по ингридиентам</p>
+                </div>
+                <div class="filters__price price">
+                  <div class="price__icon-wrapper">
+                    <img src="img/food-menu/price-icon.svg" alt="сортировка по цене" class="price__icon">
+                  </div>
+                  <div class="price__text-wrapper">
+                    <p class="price__text">Сортировать по цене</p>
+                    <img src="img/food-menu/price-arrow.svg" alt="стрелка" class="price__arrow">
+                  </div>
+                </div>
+              </div>
+              <div class="filters__filtres">
+                <form action="#" class="filters__wrappers">
+                  <div class="filters__list">
+                    <label class="filters__item">
+                      <input type="checkbox" class="filters__button">
+                      <p class="filters__item-text">Лосось</p>
+                      <img src="img/food-menu/delete-icon.svg" alt="иконка удаления" class="filters__delete-icon">
+                    </label>
+                    <label class="filters__item">
+                      <input type="checkbox" class="filters__button">
+                      <p class="filters__item-text">Угорь</p>
+                      <img src="img/food-menu/delete-icon.svg" alt="иконка удаления" class="filters__delete-icon">
+                    </label>
+                    <label class="filters__item">
+                      <input type="checkbox" class="filters__button">
+                      <p class="filters__item-text">Сыр</p>
+                      <img src="img/food-menu/delete-icon.svg" alt="иконка удаления" class="filters__delete-icon">
+                    </label>
+                    <label class="filters__item">
+                      <input type="checkbox" class="filters__button">
+                      <p class="filters__item-text">Авокадо</p>
+                      <img src="img/food-menu/delete-icon.svg" alt="иконка удаления" class="filters__delete-icon">
+                    </label>
+                    <label class="filters__item">
+                      <input type="checkbox" class="filters__button">
+                      <p class="filters__item-text">Овощной</p>
+                      <img src="img/food-menu/delete-icon.svg" alt="иконка удаления" class="filters__delete-icon">
+                    </label>
+                    <label class="filters__item">
+                      <input type="checkbox" class="filters__button">
+                      <p class="filters__item-text">Краб</p>
+                      <img src="img/food-menu/delete-icon.svg" alt="иконка удаления" class="filters__delete-icon">
+                    </label>
+                    <label class="filters__item">
+                      <input type="checkbox" class="filters__button">
+                      <p class="filters__item-text">Кунжут</p>
+                      <img src="img/food-menu/delete-icon.svg" alt="иконка удаления" class="filters__delete-icon">
+                    </label>
+                  </div>
+                  <label class="filters__reset">
+                    <div class="filters__reset-icon-wrapper">
+                      <img src="img/food-menu/reset-icon.svg" alt="иконка сброса" class="filters__reset-icon">
+                    </div>
+                    <input type="reset" class="filters__reset-input">
+                    <p class="filters__reset-text">Сбросить фильтры</p>
+                  </label>
+                </form>
+              </div>
+            </div>
+            <div class="food-menu__list food-list">
+              <div class="food-list__list">
+                <div class="food-list__rolls-item rolls-item">
+                  <div class="rolls-item__img-wrapper">
+                    <div class="rolls-item__img-wrapper-inner">
+                      <img src="img/food-menu/bar-roll.webp" alt="барский ролл" class="rolls-item__photo">
+                    </div>
+                    <img src="img/food-menu/hit.svg" alt="хит" class="rolls-item__status">
+                  </div>
+                  <div class="rolls-item__text-wrapper">
+                    <div class="rolls-item__text-content">
+                      <div class="rolls-item__product-info">
+                        <h4 class="rolls-item__name">Барский ролл</h4>
+                        <p class="rolls-item__weight">470 гр.</p>
+                      </div>
+                      <p class="rolls-item__description">Сыр, огурец, лосось, имитация краба, креветки эби, икра лосося</p>
+                    </div>
+                    <div class="rolls-item__buy-info">
+                      <p class="rolls-item__price"><span class="rolls-item__price-sum">310</span> руб</p>
+                      <a href="#" class="rolls-item__buy-button"><img src="img/food-menu/cart.svg" alt="корзина" class="rolls-item__cart">Купить</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="food-list__rolls-item rolls-item">
+                  <div class="rolls-item__img-wrapper">
+                    <div class="rolls-item__img-wrapper-inner">
+                      <img src="img/food-menu/bacon-roll.webp" alt="Бон бекон с курицей" class="rolls-item__photo">
+                    </div>
+                  </div>
+                  <div class="rolls-item__text-wrapper">
+                    <div class="rolls-item__text-content">
+                      <div class="rolls-item__product-info">
+                        <h4 class="rolls-item__name">Бон бекон с курицей</h4>
+                        <p class="rolls-item__weight">470 гр.</p>
+                      </div>
+                      <p class="rolls-item__description">Сыр, перец, курица, помидор, бекон, кунжут</p>
+                    </div>
+                    <div class="rolls-item__buy-info">
+                      <p class="rolls-item__price"><span class="rolls-item__price-sum">240</span> руб</p>
+                      <a href="#" class="rolls-item__buy-button"><img src="img/food-menu/cart.svg" alt="корзина" class="rolls-item__cart">Купить</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="food-list__rolls-item rolls-item">
+                  <div class="rolls-item__img-wrapper">
+                    <div class="rolls-item__img-wrapper-inner">
+                      <img src="img/food-menu/yin-yang.webp" alt="Инь-Янь" class="rolls-item__photo">
+                    </div>
+                  </div>
+                  <div class="rolls-item__text-wrapper">
+                    <div class="rolls-item__text-content">
+                      <div class="rolls-item__product-info">
+                        <h4 class="rolls-item__name">Инь-Янь</h4>
+                        <p class="rolls-item__weight">470 гр.</p>
+                      </div>
+                      <p class="rolls-item__description">Лосось, угорь, сыр</p>
+                    </div>
+                    <div class="rolls-item__buy-info">
+                      <p class="rolls-item__price"><span class="rolls-item__price-sum">230</span> руб</p>
+                      <a href="#" class="rolls-item__buy-button"><img src="img/food-menu/cart.svg" alt="корзина" class="rolls-item__cart">Купить</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="food-list__rolls-item rolls-item">
+                  <div class="rolls-item__img-wrapper">
+                    <div class="rolls-item__img-wrapper-inner">
+                      <img src="img/food-menu/canada.webp" alt="Инь-Янь" class="rolls-item__photo">
+                    </div>
+                    <img src="img/food-menu/hit.svg" alt="хит" class="rolls-item__status">
+                  </div>
+                  <div class="rolls-item__text-wrapper">
+                    <div class="rolls-item__text-content">
+                      <div class="rolls-item__product-info">
+                        <h4 class="rolls-item__name">Канада</h4>
+                        <p class="rolls-item__weight">470 гр.</p>
+                      </div>
+                      <p class="rolls-item__description">Лосось, рис, огурец, кунжут, креветка, нори, крем-сыр</p>
+                    </div>
+                    <div class="rolls-item__buy-info">
+                      <p class="rolls-item__price"><span class="rolls-item__price-sum">280</span> руб</p>
+                      <a href="#" class="rolls-item__buy-button"><img src="img/food-menu/cart.svg" alt="корзина" class="rolls-item__cart">Купить</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="food-list__rolls-item rolls-item">
+                  <div class="rolls-item__img-wrapper">
+                    <div class="rolls-item__img-wrapper-inner">
+                      <img src="img/food-menu/canada.webp" alt="Инь-Янь" class="rolls-item__photo">
+                    </div>
+                    <img src="img/food-menu/hit.svg" alt="хит" class="rolls-item__status">
+                  </div>
+                  <div class="rolls-item__text-wrapper">
+                    <div class="rolls-item__text-content">
+                      <div class="rolls-item__product-info">
+                        <h4 class="rolls-item__name">Канада</h4>
+                        <p class="rolls-item__weight">470 гр.</p>
+                      </div>
+                      <p class="rolls-item__description">Лосось, рис, огурец, кунжут, креветка, нори, крем-сыр</p>
+                    </div>
+                    <div class="rolls-item__buy-info">
+                      <p class="rolls-item__price"><span class="rolls-item__price-sum">280</span> руб</p>
+                      <a href="#" class="rolls-item__buy-button"><img src="img/food-menu/cart.svg" alt="корзина" class="rolls-item__cart">Купить</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="food-list__rolls-item rolls-item">
+                  <div class="rolls-item__img-wrapper">
+                    <div class="rolls-item__img-wrapper-inner">
+                      <img src="img/food-menu/yin-yang.webp" alt="Инь-Янь" class="rolls-item__photo">
+                    </div>
+                  </div>
+                  <div class="rolls-item__text-wrapper">
+                    <div class="rolls-item__text-content">
+                      <div class="rolls-item__product-info">
+                        <h4 class="rolls-item__name">Инь-Янь</h4>
+                        <p class="rolls-item__weight">470 гр.</p>
+                      </div>
+                      <p class="rolls-item__description">Лосось, угорь, сыр</p>
+                    </div>
+                    <div class="rolls-item__buy-info">
+                      <p class="rolls-item__price"><span class="rolls-item__price-sum">230</span> руб</p>
+                      <a href="#" class="rolls-item__buy-button"><img src="img/food-menu/cart.svg" alt="корзина" class="rolls-item__cart">Купить</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="food-list__rolls-item rolls-item">
+                  <div class="rolls-item__img-wrapper">
+                    <div class="rolls-item__img-wrapper-inner">
+                      <img src="img/food-menu/bar-roll.webp" alt="барский ролл" class="rolls-item__photo">
+                    </div>
+                    <img src="img/food-menu/hit.svg" alt="хит" class="rolls-item__status">
+                  </div>
+                  <div class="rolls-item__text-wrapper">
+                    <div class="rolls-item__text-content">
+                      <div class="rolls-item__product-info">
+                        <h4 class="rolls-item__name">Барский ролл</h4>
+                        <p class="rolls-item__weight">470 гр.</p>
+                      </div>
+                      <p class="rolls-item__description">Сыр, огурец, лосось, имитация краба, креветки эби, икра лосося</p>
+                    </div>
+                    <div class="rolls-item__buy-info">
+                      <p class="rolls-item__price"><span class="rolls-item__price-sum">310</span> руб</p>
+                      <a href="#" class="rolls-item__buy-button"><img src="img/food-menu/cart.svg" alt="корзина" class="rolls-item__cart">Купить</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="food-list__rolls-item rolls-item">
+                  <div class="rolls-item__img-wrapper">
+                    <div class="rolls-item__img-wrapper-inner">
+                      <img src="img/food-menu/bacon-roll.webp" alt="Бон бекон с курицей" class="rolls-item__photo">
+                    </div>
+                  </div>
+                  <div class="rolls-item__text-wrapper">
+                    <div class="rolls-item__text-content">
+                      <div class="rolls-item__product-info">
+                        <h4 class="rolls-item__name">Бон бекон с курицей</h4>
+                        <p class="rolls-item__weight">470 гр.</p>
+                      </div>
+                      <p class="rolls-item__description">Сыр, перец, курица, помидор, бекон, кунжут</p>
+                    </div>
+                    <div class="rolls-item__buy-info">
+                      <p class="rolls-item__price"><span class="rolls-item__price-sum">240</span> руб</p>
+                      <a href="#" class="rolls-item__buy-button"><img src="img/food-menu/cart.svg" alt="корзина" class="rolls-item__cart">Купить</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="food-list__rolls-item rolls-item">
+                  <div class="rolls-item__img-wrapper">
+                    <div class="rolls-item__img-wrapper-inner">
+                      <img src="img/food-menu/bacon-roll.webp" alt="Бон бекон с курицей" class="rolls-item__photo">
+                    </div>
+                  </div>
+                  <div class="rolls-item__text-wrapper">
+                    <div class="rolls-item__text-content">
+                      <div class="rolls-item__product-info">
+                        <h4 class="rolls-item__name">Бон бекон с курицей</h4>
+                        <p class="rolls-item__weight">470 гр.</p>
+                      </div>
+                      <p class="rolls-item__description">Сыр, перец, курица, помидор, бекон, кунжут</p>
+                    </div>
+                    <div class="rolls-item__buy-info">
+                      <p class="rolls-item__price"><span class="rolls-item__price-sum">240</span> руб</p>
+                      <a href="#" class="rolls-item__buy-button"><img src="img/food-menu/cart.svg" alt="корзина" class="rolls-item__cart">Купить</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="food-list__rolls-item rolls-item">
+                  <div class="rolls-item__img-wrapper">
+                    <div class="rolls-item__img-wrapper-inner">
+                      <img src="img/food-menu/canada.webp" alt="Инь-Янь" class="rolls-item__photo">
+                    </div>
+                    <img src="img/food-menu/hit.svg" alt="хит" class="rolls-item__status">
+                  </div>
+                  <div class="rolls-item__text-wrapper">
+                    <div class="rolls-item__text-content">
+                      <div class="rolls-item__product-info">
+                        <h4 class="rolls-item__name">Канада</h4>
+                        <p class="rolls-item__weight">470 гр.</p>
+                      </div>
+                      <p class="rolls-item__description">Лосось, рис, огурец, кунжут, креветка, нори, крем-сыр</p>
+                    </div>
+                    <div class="rolls-item__buy-info">
+                      <p class="rolls-item__price"><span class="rolls-item__price-sum">280</span> руб</p>
+                      <a href="#" class="rolls-item__buy-button"><img src="img/food-menu/cart.svg" alt="корзина" class="rolls-item__cart">Купить</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="food-list__rolls-item rolls-item">
+                  <div class="rolls-item__img-wrapper">
+                    <div class="rolls-item__img-wrapper-inner">
+                      <img src="img/food-menu/yin-yang.webp" alt="Инь-Янь" class="rolls-item__photo">
+                    </div>
+                  </div>
+                  <div class="rolls-item__text-wrapper">
+                    <div class="rolls-item__text-content">
+                      <div class="rolls-item__product-info">
+                        <h4 class="rolls-item__name">Инь-Янь</h4>
+                        <p class="rolls-item__weight">470 гр.</p>
+                      </div>
+                      <p class="rolls-item__description">Лосось, угорь, сыр</p>
+                    </div>
+                    <div class="rolls-item__buy-info">
+                      <p class="rolls-item__price"><span class="rolls-item__price-sum">230</span> руб</p>
+                      <a href="#" class="rolls-item__buy-button"><img src="img/food-menu/cart.svg" alt="корзина" class="rolls-item__cart">Купить</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="food-list__rolls-item rolls-item">
+                  <div class="rolls-item__img-wrapper">
+                    <div class="rolls-item__img-wrapper-inner">
+                      <img src="img/food-menu/bar-roll.webp" alt="барский ролл" class="rolls-item__photo">
+                    </div>
+                    <img src="img/food-menu/hit.svg" alt="хит" class="rolls-item__status">
+                  </div>
+                  <div class="rolls-item__text-wrapper">
+                    <div class="rolls-item__text-content">
+                      <div class="rolls-item__product-info">
+                        <h4 class="rolls-item__name">Барский ролл</h4>
+                        <p class="rolls-item__weight">470 гр.</p>
+                      </div>
+                      <p class="rolls-item__description">Сыр, огурец, лосось, имитация краба, креветки эби, икра лосося</p>
+                    </div>
+                    <div class="rolls-item__buy-info">
+                      <p class="rolls-item__price"><span class="rolls-item__price-sum">310</span> руб</p>
+                      <a href="#" class="rolls-item__buy-button"><img src="img/food-menu/cart.svg" alt="корзина" class="rolls-item__cart">Купить</a>
+                    </div>
+                  </div>
+                </div>
+
+
+                <!--wok item-->
+                <!--<div class="food-list__wok-item wok-item">
+                  <div class="wok-item__img-wrapper">
+                    <div class="wok-item__img-wrapper-inner">
+                      <img src="img/food-menu/wok.webp" alt="Бон бекон с курицей" class="wok-item__photo">
+                    </div>
+                    <img src="img/food-menu/new.svg" alt="хит" class="wok-item__status">
+                  </div>
+                  <div class="wok-item__text-wrapper">
+                    <div class="wok-item__text-content">
+                      <div class="wok-item__product-info">
+                        <h4 class="wok-item__name rolls-item__name">Лапша WOK</h4>
+                        <p class="wok-item__slogan rolls-item__weight">Собери свою лапшу!</p>
+                      </div>
+                      <form action="#" class="wok-item__customisation">
+                        <div class="wok-item__custom-item-wrapper">
+                          <select aria-placeholder="Основа" class="wok-item__custom-item">
+                            <option value="" disabled selected>Основа</option>
+                            <option value="1">text</option>
+                          </select>
+                        </div>
+                        <div class="wok-item__custom-item-wrapper">
+                          <select class="wok-item__custom-item">
+                            <option value="" disabled selected>Начинка</option>
+                            <option value="2">text</option>
+                          </select>
+                        </div>
+                        <div class="wok-item__custom-item-wrapper">
+                          <select class="wok-item__custom-item">
+                            <option value="" disabled selected>Соус</option>
+                            <option value="3">text</option>
+                          </select>
+                        </div>
+                        <div class="wok-item__custom-item-wrapper">
+                          <select class="wok-item__custom-item">
+                            <option value="" disabled selected>Топпинг</option>
+                            <option value="4">text</option>
+                          </select>
+                        </div>
+                      </form>
+                    </div>
+                    <div class="rolls-item__buy-info rolls-item__buy-info-wok">
+                      <p class="rolls-item__price"><span class="rolls-item__price-sum">280</span> руб</p>
+                      <a href="#" class="rolls-item__buy-button"><img src="img/food-menu/cart.svg" alt="корзина" class="rolls-item__cart">Купить</a>
+                    </div>
+                  </div>
+                </div>-->
+              </div>
+              <div class="food-list__button-wrapper">
+                <a href="#" class="food-list__button">Наверх</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="about-us">
+        <div class="about-us__container _container">
+          <div class="about-us__text-content">
+            <h5 class="about-us__title">О нас</h5>
+            <div class="about-us__values values">
+              <p class="values__slogan">Наши главные ценности это  —</p>
+              <div class="values__list">
+                <div class="values__item">
+                  <div class="values__icon-wrapper"><img src="img/about-us/medal.svg" alt="медаль" class="values__icon-medal"></div>
+                  <p class="values__text">Качество</p>
+                </div>
+                <div class="values__item">
+                  <div class="values__icon-wrapper"><img src="img/about-us/rocket.svg" alt="ракета" class="values__icon-rocket-and-smile"></div>
+                  <p class="values__text">Скорость</p>
+                </div>
+                <div class="values__item">
+                  <div class="values__icon-wrapper"><img src="img/about-us/smile.svg" alt="смайлик" class="values__icon-rocket-and-smile"></div>
+                  <p class="values__text">Довольные клиенты</p>
+                </div>
+              </div>
+            </div>
+            <div class="about-us__text-wrapper">
+              <p class="about-us__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam rutrum, est eu scelerisque placerat,  magna risus cursus nunc, ac euismod risus libero sit amet lectus. Mauris vulputate leo quis enim cursus eleifend a eget metus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Suspendisse vitae commodo nisl. In quis maximus libero. Vivamus ut lobortis eros, a posuere sapien.</p>
+              <p class="about-us__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam rutrum, est eu scelerisque placerat,  magna risus cursus nunc, ac euismod risus libero sit amet lectus. Mauris vulputate leo quis enim cursus eleifend a eget metus. Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>
+            </div>
+            <a href="#" class="about-us__button">Подробнее</a>
+          </div>
+          <img src="img/about-us/about-us.webp" alt="роллы" class="about-us__image">
+        </div>
+      </section>
+      <section class="feedback">
+        <img src="img/feedback/rolls1.webp" alt="роллы" class="feedback__rolls1">
+        <img src="img/feedback/rolls2.webp" alt="роллы" class="feedback__rolls2">
+        <div class="feedback__container _container">
+          <img src="img/feedback/girl.webp" alt="девушка" class="feedback__girl">
+          <div class="feedback__content-wrapper">
+            <div class="feedback__text-content">
+              <h5 class="feedback__title">Свяжитесь с нами!</h5>
+              <img src="img/feedback/message.svg" alt="сообщение" class="feedback__message">
+            </div>
+            <form action="#" class="feedback__form-content">
+              <div class="feedback__name-and-phone">
+                <input type="text" class="feedback__name-and-phone-form" placeholder="Ваше имя">
+                <input type="text" class="feedback__name-and-phone-form" placeholder="Телефон">
+              </div>
+              <div class="feedback__email-and-appeal">
+                <input type="email" class="feedback__email-form feedback__name-and-phone-form" placeholder="E-mail">
+                <div class="feedback__appeal-wrapper">
+                  <p class="feedback__appeal-text">Тип обращения:</p>
+                  <div class="feedback__appeal-select-wrapper">
+                    <select class="feedback__appeal">
+                      <option value="4">Отзыв</option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+              <textarea class="feedback__message-form" placeholder="Сообщение"></textarea>
+              <label class="feedback__file-wrapper">
+                <input type="file" class="feedback__file">
+                <div class="feedback__file-icon-wrapper"><img src="img/feedback/file.svg" alt="скрепка" class="feedback__file-icon"></div>
+                <p class="feedback__file-text">Прикрепить файл (фото jpeg, png)</p>
+              </label>
+              <div class="feedback__politic-and-submit politic">
+                <p class="politic__text">Нажимая кнопку "Отправить" вы соглашаетесь с условиями политики конфиденциальности</p>
+                <input type="submit" class="feedback__submit" value="Отправить!">
+              </div>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="footer__top footer-top">
+        <div class="footer-top__container _container">
+          <a href="index.html" class="footer-top__logo footer-logo">
+            <img src="img/header/logo.png" alt="логотип" class="footer-logo__img">
+            <span class="footer-logo__text-wrapper">
+              <img src="img/header/words.png" alt="фкстиваль суши" class="footer-logo__words">
+              <p class="footer-logo__text">Доставка еды для каждого в Городце, Заволжье и Балахне</p>
+            </span>
+          </a>
+          <div class="footer-top__numbers-list footer-numbers">
+            <div class="footer-number__item">
+              <div class="footer-number__text-wrapper">
+                <img src="img/footer/adress.svg" alt="адрес" class="footer-number__adress-icon">
+                <p class="footer-number__adres-text">Городец, ул. Чернышевского, 2а</p>
+              </div>
+              <a href="tel: +79990729900" class="footer-number__link">
+                <img src="img/footer/phone.svg" alt="телефон" class="footer-number__icon">
+                <p class="footer-number__text">8 (999) 072-99-00</p>
+              </a>
+            </div>
+            <div class="footer-number__item">
+              <div class="footer-number__text-wrapper">
+                <img src="img/footer/adress.svg" alt="адрес" class="footer-number__adress-icon">
+                <p class="footer-number__adres-text">Заволжье, ул. Мичурина, 34</p>
+              </div>
+              <a href="tel: +79990757172" class="footer-number__link">
+                <img src="img/footer/phone.svg" alt="телефон" class="footer-number__icon">
+                <p class="footer-number__text">8 (999) 075-71-72</p>
+              </a>
+            </div>
+            <div class="footer-number__item">
+              <div class="footer-number__text-wrapper">
+                <img src="img/footer/adress.svg" alt="адрес" class="footer-number__adress-icon">
+                <p class="footer-number__adres-text">Балахна, пр. Революции, 10а</p>
+              </div>
+              <a href="tel: +79990710499" class="footer-number__link">
+                <img src="img/footer/phone.svg" alt="телефон" class="footer-number__icon">
+                <p class="footer-number__text">8 (999) 071-04-99</p>
+              </a>
+            </div>
+          </div>
+          <div class="footer-top__schedule-and-social-media">
+            <div class="footer-top__schedule footer-schedule">
+              <img src="img/footer/watch.svg" alt="часы" class="footer-schedule__watch-icon">
+              <div class="footer-schedule__text-wrapper">
+                <h6 class="footer-schedule__title">Время работы</h6>
+                <p class="footer-schedule__text">С 10:00 до 22:00 <br> Прием заказов до 21:30</p>
+              </div>
+            </div>
+            <div class="footer-top__social-media footer-social-media">
+              <p class="footer-social-media__text">Присоединяйтесь!</p>
+              <div class="footer-social-media__links">
+                <a href="https://web.telegram.org/" target="_blank" class="footer-social-media__wrapper">
+                  <img src="img/footer/telegram.svg" alt="телеграм" class="footer-social-media__icon">
+                </a>
+                <a href="https://vk.com/" target="_blank" class="footer-social-media__wrapper">
+                  <img src="img/footer/vk.svg" alt="вк" class="footer-social-media__icon">
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer__menu footer-menu">
+        <div class="footer-menu__container _container">
+          <ul class="footer-menu__list">
+            <li><a href="#" class="footer-menu__link">Главная</a></li>
+            <li><a href="#" class="footer-menu__link">Меню</a></li>
+            <li><a href="#" class="footer-menu__link">О нас</a></li>
+            <li><a href="#" class="footer-menu__link">Акции</a></li>
+            <li><a href="#" class="footer-menu__link">Доставка и оплата</a></li>
+            <li><a href="#" class="footer-menu__link">Вакансии</a></li>
+            <li><a href="#" class="footer-menu__link">Контакты</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__bottom footer-bottom">
+        <div class="footer-bottom__container _container">
+          <div class="footer-bottom__site-links">
+            <a href="#" class="footer-bottom__site-link">Политика конфиденциальности</a>
+            <a href="#" class="footer-bottom__site-link">Публичная оферта</a>
+          </div>
+          <a href="https://promo-link.ru/" target="_blank" class="footer-bottom__dev-link">Разработка сайта Promolink 2022</a>
+        </div>
+      </div>
+    </footer>
+  </div>
+  <script src="js/swiper.js"></script>
+  <script src="js/index.js"></script>
+</body>
+</html>
